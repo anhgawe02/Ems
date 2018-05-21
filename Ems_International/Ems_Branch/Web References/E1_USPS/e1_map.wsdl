@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="E1_USPS_Cap_Nhat_Them">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MaE1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MaUSPS" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Status" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="E1_USPS_Cap_Nhat_ThemResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="E1_USPS_Cap_Nhat_ThemResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="E1_USPS_Cap_Nhat_ThemSoapIn">
+    <wsdl:part name="parameters" element="tns:E1_USPS_Cap_Nhat_Them" />
+  </wsdl:message>
+  <wsdl:message name="E1_USPS_Cap_Nhat_ThemSoapOut">
+    <wsdl:part name="parameters" element="tns:E1_USPS_Cap_Nhat_ThemResponse" />
+  </wsdl:message>
+  <wsdl:message name="E1_USPS_Cap_Nhat_ThemHttpGetIn">
+    <wsdl:part name="MaE1" type="s:string" />
+    <wsdl:part name="MaUSPS" type="s:string" />
+    <wsdl:part name="Status" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="E1_USPS_Cap_Nhat_ThemHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="E1_USPS_Cap_Nhat_ThemHttpPostIn">
+    <wsdl:part name="MaE1" type="s:string" />
+    <wsdl:part name="MaUSPS" type="s:string" />
+    <wsdl:part name="Status" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="E1_USPS_Cap_Nhat_ThemHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="E1_MAPSoap">
+    <wsdl:operation name="E1_USPS_Cap_Nhat_Them">
+      <wsdl:input message="tns:E1_USPS_Cap_Nhat_ThemSoapIn" />
+      <wsdl:output message="tns:E1_USPS_Cap_Nhat_ThemSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="E1_MAPHttpGet">
+    <wsdl:operation name="E1_USPS_Cap_Nhat_Them">
+      <wsdl:input message="tns:E1_USPS_Cap_Nhat_ThemHttpGetIn" />
+      <wsdl:output message="tns:E1_USPS_Cap_Nhat_ThemHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="E1_MAPHttpPost">
+    <wsdl:operation name="E1_USPS_Cap_Nhat_Them">
+      <wsdl:input message="tns:E1_USPS_Cap_Nhat_ThemHttpPostIn" />
+      <wsdl:output message="tns:E1_USPS_Cap_Nhat_ThemHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="E1_MAPSoap" type="tns:E1_MAPSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="E1_USPS_Cap_Nhat_Them">
+      <soap:operation soapAction="http://tempuri.org/E1_USPS_Cap_Nhat_Them" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="E1_MAPSoap12" type="tns:E1_MAPSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+    <wsdl:operation name="E1_USPS_Cap_Nhat_Them">
+      <soap12:operation soapAction="http://tempuri.org/E1_USPS_Cap_Nhat_Them" style="document" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      <wsdl:input>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="E1_MAPHttpGet" type="tns:E1_MAPHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="E1_USPS_Cap_Nhat_Them">
+      <http:operation location="/E1_USPS_Cap_Nhat_Them" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="E1_MAPHttpPost" type="tns:E1_MAPHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="E1_USPS_Cap_Nhat_Them">
+      <http:operation location="/E1_USPS_Cap_Nhat_Them" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="E1_MAP">
+    <wsdl:port name="E1_MAPSoap" binding="tns:E1_MAPSoap">
+      <soap:address location="http://ems.com.vn/portal/e1map/e1_map.asmx" />
+    </wsdl:port>
+    <wsdl:port name="E1_MAPSoap12" binding="tns:E1_MAPSoap12">
+      <soap12:address location="http://ems.com.vn/portal/e1map/e1_map.asmx" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+    </wsdl:port>
+    <wsdl:port name="E1_MAPHttpGet" binding="tns:E1_MAPHttpGet">
+      <http:address location="http://ems.com.vn/portal/e1map/e1_map.asmx" />
+    </wsdl:port>
+    <wsdl:port name="E1_MAPHttpPost" binding="tns:E1_MAPHttpPost">
+      <http:address location="http://ems.com.vn/portal/e1map/e1_map.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

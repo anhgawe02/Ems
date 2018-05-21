@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="Dataset_OutBound" targetNamespace="http://tempuri.org/Dataset_OutBound.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/Dataset_OutBound.xsd"
+	xmlns:mstns="http://tempuri.org/Dataset_OutBound.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="Dataset_OutBound" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Ban_Ke_BV10_QT_Di">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="SoChuyenThu" type="xs:int" minOccurs="0" />
+							<xs:element name="Ma_Bc_Khai_Thac" type="xs:string" minOccurs="0" />
+							<xs:element name="Duongthu" type="xs:string" minOccurs="0" />
+							<xs:element name="Tui_So" type="xs:int" minOccurs="0" />
+							<xs:element name="Tong_So_BP" type="xs:int" minOccurs="0" />
+							<xs:element name="KhoiLuong" type="xs:int" minOccurs="0" />
+							<xs:element name="Tui_F" type="xs:string" minOccurs="0" />
+							<xs:element name="TenBCgui" type="xs:string" minOccurs="0" />
+							<xs:element name="TenBCnhan" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="E1_Di_Lay_Danh_Sach_Dong_Di_Tinh_Gui_Call_Center">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Duong_Thu" type="xs:string" minOccurs="0" />
+							<xs:element name="So_Chuyen_Thu" type="xs:int" minOccurs="0" />
+							<xs:element name="Loai_Chuyen_Thu" type="xs:string" minOccurs="0" />
+							<xs:element name="Tui_So" type="xs:int" minOccurs="0" />
+							<xs:element name="Ngay_Dong" type="xs:date" minOccurs="0" />
+							<xs:element name="Ma_E1" type="xs:string" minOccurs="0" />
+							<xs:element name="Ma_C1" type="xs:string" minOccurs="0" />
+							<xs:element name="Khoi_Luong" type="xs:int" minOccurs="0" />
+							<xs:element name="Phan_Loai" type="xs:string" minOccurs="0" />
+							<xs:element name="Nguoi_Nhan" type="xs:string" minOccurs="0" />
+							<xs:element name="Dia_Chi_Nhan" type="xs:string" minOccurs="0" />
+							<xs:element name="Gio_Dong" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="E1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="E1_1" type="xs:string" minOccurs="0" />
+							<xs:element name="E1_2" type="xs:string" minOccurs="0" />
+							<xs:element name="E1_3" type="xs:string" minOccurs="0" />
+							<xs:element name="E1_4" type="xs:string" minOccurs="0" />
+							<xs:element name="E1_5" type="xs:string" minOccurs="0" />
+							<xs:element name="E11" type="xs:string" minOccurs="0" />
+							<xs:element name="E12" type="xs:string" minOccurs="0" />
+							<xs:element name="E13" type="xs:string" minOccurs="0" />
+							<xs:element name="E14" type="xs:string" minOccurs="0" />
+							<xs:element name="E15" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

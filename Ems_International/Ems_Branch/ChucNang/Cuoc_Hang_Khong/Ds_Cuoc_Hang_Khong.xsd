@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="Ds_Cuoc_Hang_Khong" targetNamespace="http://tempuri.org/Ds_Cuoc_Hang_Khong.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/Ds_Cuoc_Hang_Khong.xsd"
+	xmlns:mstns="http://tempuri.org/Ds_Cuoc_Hang_Khong.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="Ds_Cuoc_Hang_Khong" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Bang_Ke_Tong_Hop_Cuoc_HK">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Hanh_Trinh" type="xs:string" minOccurs="0" />
+							<xs:element name="Tong_So_Tui" type="xs:int" minOccurs="0" />
+							<xs:element name="Trong_Luong" type="xs:float" minOccurs="0" />
+							<xs:element name="Don_Gia" type="xs:float" minOccurs="0" />
+							<xs:element name="Tong_Tien" type="xs:float" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Bang_Ke_Chi_Tiet_Cuoc_HK_Theo_HVC">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Buu_Cuc_Gui" type="xs:string" minOccurs="0" />
+							<xs:element name="Buu_Cuc_Nhan" type="xs:string" minOccurs="0" />
+							<xs:element name="Ngay_Dong" type="xs:date" minOccurs="0" />
+							<xs:element name="Ngay_Bay" type="xs:date" minOccurs="0" />
+							<xs:element name="So_Chuyen_Thu" type="xs:int" minOccurs="0" />
+							<xs:element name="Loai_Chuyen_Thu" type="xs:string" minOccurs="0" />
+							<xs:element name="Tong_So_Tui" type="xs:int" minOccurs="0" />
+							<xs:element name="KL_Tui_Rong" type="xs:float" minOccurs="0" />
+							<xs:element name="KL_EMS" type="xs:float" minOccurs="0" />
+							<xs:element name="Tong_KL" type="xs:float" minOccurs="0" />
+							<xs:element name="Hanh_Trinh" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

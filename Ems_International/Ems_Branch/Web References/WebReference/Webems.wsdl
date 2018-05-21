@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://microsoft.com/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://microsoft.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://microsoft.com/">
+      <s:element name="Tra_Cuu_Ma_E1">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="mae1" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Tra_Cuu_Ma_E1Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Tra_Cuu_Ma_E1Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TinhCuocEMSTrongNuoc">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ma_KH_E_Shipping" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Buu_Cuc_Khai_Thac" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="Nuoc_Nhan" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="KHOI_LUONG" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="BC_NHAN" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="BC_TRA" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TinhCuocEMSTrongNuocResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TinhCuocEMSTrongNuocResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TinhCuocEMSQuocTe">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Ma_KH_E_Shipping" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Buu_Cuc_Khai_Thac" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="Nuoc_Nhan" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="LOAI_BP" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="KHOI_LUONG" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="NUOC_PHAT" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TinhCuocEMSQuocTeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TinhCuocEMSQuocTeResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DataSet" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:element ref="s:schema" />
+            <s:any />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="Tra_Cuu_Ma_E1SoapIn">
+    <wsdl:part name="parameters" element="tns:Tra_Cuu_Ma_E1" />
+  </wsdl:message>
+  <wsdl:message name="Tra_Cuu_Ma_E1SoapOut">
+    <wsdl:part name="parameters" element="tns:Tra_Cuu_Ma_E1Response" />
+  </wsdl:message>
+  <wsdl:message name="TinhCuocEMSTrongNuocSoapIn">
+    <wsdl:part name="parameters" element="tns:TinhCuocEMSTrongNuoc" />
+  </wsdl:message>
+  <wsdl:message name="TinhCuocEMSTrongNuocSoapOut">
+    <wsdl:part name="parameters" element="tns:TinhCuocEMSTrongNuocResponse" />
+  </wsdl:message>
+  <wsdl:message name="TinhCuocEMSQuocTeSoapIn">
+    <wsdl:part name="parameters" element="tns:TinhCuocEMSQuocTe" />
+  </wsdl:message>
+  <wsdl:message name="TinhCuocEMSQuocTeSoapOut">
+    <wsdl:part name="parameters" element="tns:TinhCuocEMSQuocTeResponse" />
+  </wsdl:message>
+  <wsdl:message name="Tra_Cuu_Ma_E1HttpGetIn">
+    <wsdl:part name="mae1" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="Tra_Cuu_Ma_E1HttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="TinhCuocEMSTrongNuocHttpGetIn">
+    <wsdl:part name="Ma_KH_E_Shipping" type="s:string" />
+    <wsdl:part name="Buu_Cuc_Khai_Thac" type="s:string" />
+    <wsdl:part name="Nuoc_Nhan" type="s:string" />
+    <wsdl:part name="KHOI_LUONG" type="s:string" />
+    <wsdl:part name="BC_NHAN" type="s:string" />
+    <wsdl:part name="BC_TRA" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TinhCuocEMSTrongNuocHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="TinhCuocEMSQuocTeHttpGetIn">
+    <wsdl:part name="Ma_KH_E_Shipping" type="s:string" />
+    <wsdl:part name="Buu_Cuc_Khai_Thac" type="s:string" />
+    <wsdl:part name="Nuoc_Nhan" type="s:string" />
+    <wsdl:part name="LOAI_BP" type="s:string" />
+    <wsdl:part name="KHOI_LUONG" type="s:string" />
+    <wsdl:part name="NUOC_PHAT" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TinhCuocEMSQuocTeHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="Tra_Cuu_Ma_E1HttpPostIn">
+    <wsdl:part name="mae1" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="Tra_Cuu_Ma_E1HttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="TinhCuocEMSTrongNuocHttpPostIn">
+    <wsdl:part name="Ma_KH_E_Shipping" type="s:string" />
+    <wsdl:part name="Buu_Cuc_Khai_Thac" type="s:string" />
+    <wsdl:part name="Nuoc_Nhan" type="s:string" />
+    <wsdl:part name="KHOI_LUONG" type="s:string" />
+    <wsdl:part name="BC_NHAN" type="s:string" />
+    <wsdl:part name="BC_TRA" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TinhCuocEMSTrongNuocHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="TinhCuocEMSQuocTeHttpPostIn">
+    <wsdl:part name="Ma_KH_E_Shipping" type="s:string" />
+    <wsdl:part name="Buu_Cuc_Khai_Thac" type="s:string" />
+    <wsdl:part name="Nuoc_Nhan" type="s:string" />
+    <wsdl:part name="LOAI_BP" type="s:string" />
+    <wsdl:part name="KHOI_LUONG" type="s:string" />
+    <wsdl:part name="NUOC_PHAT" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TinhCuocEMSQuocTeHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="WebemsSoap">
+    <wsdl:operation name="Tra_Cuu_Ma_E1">
+      <wsdl:input message="tns:Tra_Cuu_Ma_E1SoapIn" />
+      <wsdl:output message="tns:Tra_Cuu_Ma_E1SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TinhCuocEMSTrongNuoc">
+      <wsdl:input message="tns:TinhCuocEMSTrongNuocSoapIn" />
+      <wsdl:output message="tns:TinhCuocEMSTrongNuocSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TinhCuocEMSQuocTe">
+      <wsdl:input message="tns:TinhCuocEMSQuocTeSoapIn" />
+      <wsdl:output message="tns:TinhCuocEMSQuocTeSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="WebemsHttpGet">
+    <wsdl:operation name="Tra_Cuu_Ma_E1">
+      <wsdl:input message="tns:Tra_Cuu_Ma_E1HttpGetIn" />
+      <wsdl:output message="tns:Tra_Cuu_Ma_E1HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TinhCuocEMSTrongNuoc">
+      <wsdl:input message="tns:TinhCuocEMSTrongNuocHttpGetIn" />
+      <wsdl:output message="tns:TinhCuocEMSTrongNuocHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TinhCuocEMSQuocTe">
+      <wsdl:input message="tns:TinhCuocEMSQuocTeHttpGetIn" />
+      <wsdl:output message="tns:TinhCuocEMSQuocTeHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="WebemsHttpPost">
+    <wsdl:operation name="Tra_Cuu_Ma_E1">
+      <wsdl:input message="tns:Tra_Cuu_Ma_E1HttpPostIn" />
+      <wsdl:output message="tns:Tra_Cuu_Ma_E1HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TinhCuocEMSTrongNuoc">
+      <wsdl:input message="tns:TinhCuocEMSTrongNuocHttpPostIn" />
+      <wsdl:output message="tns:TinhCuocEMSTrongNuocHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TinhCuocEMSQuocTe">
+      <wsdl:input message="tns:TinhCuocEMSQuocTeHttpPostIn" />
+      <wsdl:output message="tns:TinhCuocEMSQuocTeHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebemsSoap" type="tns:WebemsSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Tra_Cuu_Ma_E1">
+      <soap:operation soapAction="http://microsoft.com/Tra_Cuu_Ma_E1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TinhCuocEMSTrongNuoc">
+      <soap:operation soapAction="http://microsoft.com/TinhCuocEMSTrongNuoc" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TinhCuocEMSQuocTe">
+      <soap:operation soapAction="http://microsoft.com/TinhCuocEMSQuocTe" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebemsSoap12" type="tns:WebemsSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+    <wsdl:operation name="Tra_Cuu_Ma_E1">
+      <soap12:operation soapAction="http://microsoft.com/Tra_Cuu_Ma_E1" style="document" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      <wsdl:input>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TinhCuocEMSTrongNuoc">
+      <soap12:operation soapAction="http://microsoft.com/TinhCuocEMSTrongNuoc" style="document" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      <wsdl:input>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TinhCuocEMSQuocTe">
+      <soap12:operation soapAction="http://microsoft.com/TinhCuocEMSQuocTe" style="document" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      <wsdl:input>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebemsHttpGet" type="tns:WebemsHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="Tra_Cuu_Ma_E1">
+      <http:operation location="/Tra_Cuu_Ma_E1" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TinhCuocEMSTrongNuoc">
+      <http:operation location="/TinhCuocEMSTrongNuoc" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TinhCuocEMSQuocTe">
+      <http:operation location="/TinhCuocEMSQuocTe" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebemsHttpPost" type="tns:WebemsHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="Tra_Cuu_Ma_E1">
+      <http:operation location="/Tra_Cuu_Ma_E1" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TinhCuocEMSTrongNuoc">
+      <http:operation location="/TinhCuocEMSTrongNuoc" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TinhCuocEMSQuocTe">
+      <http:operation location="/TinhCuocEMSQuocTe" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Webems">
+    <wsdl:port name="WebemsSoap" binding="tns:WebemsSoap">
+      <soap:address location="http://192.168.68.6/WebService/Webems.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebemsSoap12" binding="tns:WebemsSoap12">
+      <soap12:address location="http://192.168.68.6/WebService/Webems.asmx" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+    </wsdl:port>
+    <wsdl:port name="WebemsHttpGet" binding="tns:WebemsHttpGet">
+      <http:address location="http://192.168.68.6/WebService/Webems.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebemsHttpPost" binding="tns:WebemsHttpPost">
+      <http:address location="http://192.168.68.6/WebService/Webems.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

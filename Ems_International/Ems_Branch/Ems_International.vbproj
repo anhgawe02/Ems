@@ -1,0 +1,3486 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{52EF7A33-2A10-4626-8586-B6E15EFFCEDA}"
+        SccProjectName = "SAK"
+        SccLocalPath = "SAK"
+        SccAuxPath = "SAK"
+        SccProvider = "SAK"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "Ems_International"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = ""
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+                <Reference
+                    Name = "Infragistics.Win.Misc.v5.1"
+                    AssemblyName = "Infragistics.Win.Misc.v5.1"
+                    HintPath = "C:\Program Files\Infragistics\NetAdvantage 2005 Volume 1\Windows Forms\Bin\Infragistics.Win.Misc.v5.1.dll"
+                    AssemblyFolderKey = "hklm\infragistics.winassemblies.20051"
+                />
+                <Reference
+                    Name = "Infragistics.Win.v5.1"
+                    AssemblyName = "Infragistics.Win.v5.1"
+                    HintPath = "C:\Program Files\Infragistics\NetAdvantage 2005 Volume 1\Windows Forms\Bin\Infragistics.Win.v5.1.dll"
+                    AssemblyFolderKey = "hklm\infragistics.winassemblies.20051"
+                />
+                <Reference
+                    Name = "Infragistics.Shared.v5.1"
+                    AssemblyName = "Infragistics.Shared.v5.1"
+                    HintPath = "C:\Program Files\Infragistics\NetAdvantage 2005 Volume 1\Windows Forms\Bin\Infragistics.Shared.v5.1.dll"
+                    AssemblyFolderKey = "hklm\infragistics.winassemblies.20051"
+                />
+                <Reference
+                    Name = "System.Design"
+                    AssemblyName = "System.Design"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Design.dll"
+                />
+                <Reference
+                    Name = "Infragistics.Win.UltraWinEditors.v5.1"
+                    AssemblyName = "Infragistics.Win.UltraWinEditors.v5.1"
+                    HintPath = "C:\Program Files\Infragistics\NetAdvantage 2005 Volume 1\Windows Forms\Bin\Infragistics.Win.UltraWinEditors.v5.1.dll"
+                    AssemblyFolderKey = "hklm\infragistics.winassemblies.20051"
+                />
+                <Reference
+                    Name = "Microsoft.VisualBasic"
+                    AssemblyName = "Microsoft.VisualBasic"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\Microsoft.VisualBasic.dll"
+                />
+                <Reference
+                    Name = "Infragistics.Win.UltraWinExplorerBar.v5.1"
+                    AssemblyName = "Infragistics.Win.UltraWinExplorerBar.v5.1"
+                    HintPath = "C:\Program Files\Infragistics\NetAdvantage 2005 Volume 1\Windows Forms\Bin\Infragistics.Win.UltraWinExplorerBar.v5.1.dll"
+                    AssemblyFolderKey = "hklm\infragistics.winassemblies.20051"
+                />
+                <Reference
+                    Name = "System.Runtime.Serialization.Formatters.Soap"
+                    AssemblyName = "System.Runtime.Serialization.Formatters.Soap"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Runtime.Serialization.Formatters.Soap.dll"
+                />
+                <Reference
+                    Name = "Infragistics.Win.UltraWinGrid.v5.1"
+                    AssemblyName = "Infragistics.Win.UltraWinGrid.v5.1"
+                    HintPath = "C:\Program Files\Infragistics\NetAdvantage 2005 Volume 1\Windows Forms\Bin\Infragistics.Win.UltraWinGrid.v5.1.dll"
+                    AssemblyFolderKey = "hklm\infragistics.winassemblies.20051"
+                />
+                <Reference
+                    Name = "Infragistics.Win.UltraWinTabControl.v5.1"
+                    AssemblyName = "Infragistics.Win.UltraWinTabControl.v5.1"
+                    HintPath = "C:\Program Files\Infragistics\NetAdvantage 2005 Volume 1\Windows Forms\Bin\Infragistics.Win.UltraWinTabControl.v5.1.dll"
+                    AssemblyFolderKey = "hklm\infragistics.winassemblies.20051"
+                />
+                <Reference
+                    Name = "Calendar"
+                    AssemblyName = "Calendar"
+                    HintPath = "bin\Calendar.dll"
+                />
+                <Reference
+                    Name = "Infragistics.Win.UltraWinDock.v5.1"
+                    AssemblyName = "Infragistics.Win.UltraWinDock.v5.1"
+                    HintPath = "C:\Program Files\Infragistics\NetAdvantage 2005 Volume 1\Windows Forms\Bin\Infragistics.Win.UltraWinDock.v5.1.dll"
+                    AssemblyFolderKey = "hklm\infragistics.winassemblies.20051"
+                />
+                <Reference
+                    Name = "Infragistics.Win.UltraWinStatusBar.v5.1"
+                    AssemblyName = "Infragistics.Win.UltraWinStatusBar.v5.1"
+                    HintPath = "C:\Program Files\Infragistics\NetAdvantage 2005 Volume 1\Windows Forms\Bin\Infragistics.Win.UltraWinStatusBar.v5.1.dll"
+                    AssemblyFolderKey = "hklm\infragistics.winassemblies.20051"
+                />
+                <Reference
+                    Name = "infragistics.win.ultrawindatasource.v5.1"
+                    AssemblyName = "Infragistics.Win.UltraWinDataSource.v5.1"
+                    HintPath = "c:\windows\assembly\gac\infragistics.win.ultrawindatasource.v5.1\5.1.20051.37__7dd5c3163f2cd0cb\infragistics.win.ultrawindatasource.v5.1.dll"
+                />
+                <Reference
+                    Name = "CrystalDecisions.Shared"
+                    AssemblyName = "CrystalDecisions.Shared"
+                    HintPath = "C:\Program Files\Common Files\Crystal Decisions\1.1\Managed\CrystalDecisions.Shared.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "CrystalDecisions.ReportSource"
+                    AssemblyName = "CrystalDecisions.ReportSource"
+                    HintPath = "C:\Program Files\Common Files\Crystal Decisions\1.1\Managed\CrystalDecisions.ReportSource.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "CrystalDecisions.CrystalReports.Engine"
+                    AssemblyName = "CrystalDecisions.CrystalReports.Engine"
+                    HintPath = "C:\Program Files\Common Files\Crystal Decisions\1.1\Managed\CrystalDecisions.CrystalReports.Engine.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "CrystalDecisions.Windows.Forms"
+                    AssemblyName = "CrystalDecisions.Windows.Forms"
+                    HintPath = "C:\Program Files\Common Files\Crystal Decisions\1.1\Managed\CrystalDecisions.Windows.Forms.dll"
+                    AssemblyFolderKey = "hklm\crystal.net"
+                    Private = "True"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.Services.dll"
+                />
+                <Reference
+                    Name = "Infragistics.Win.UltraWinMaskedEdit.v5.1"
+                    AssemblyName = "Infragistics.Win.UltraWinMaskedEdit.v5.1"
+                    HintPath = "C:\Program Files\Infragistics\NetAdvantage 2005 Volume 1\Windows Forms\Bin\Infragistics.Win.UltraWinMaskedEdit.v5.1.dll"
+                    AssemblyFolderKey = "hklm\infragistics.winassemblies.20051"
+                />
+                <Reference
+                    Name = "Infragistics.Win.UltraWinTree.v5.1"
+                    AssemblyName = "Infragistics.Win.UltraWinTree.v5.1"
+                    HintPath = "C:\Program Files\Infragistics\NetAdvantage 2005 Volume 1\Windows Forms\Bin\Infragistics.Win.UltraWinTree.v5.1.dll"
+                    AssemblyFolderKey = "hklm\infragistics.winassemblies.20051"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.dll"
+                />
+                <Reference
+                    Name = "Infragistics.Win.UltraWinGrid.ExcelExport.v5.1"
+                    AssemblyName = "Infragistics.Win.UltraWinGrid.ExcelExport.v5.1"
+                    HintPath = "C:\Program Files\Infragistics\NetAdvantage 2005 Volume 1\Windows Forms\Bin\Infragistics.Win.UltraWinGrid.ExcelExport.v5.1.dll"
+                    AssemblyFolderKey = "hklm\infragistics.winassemblies.20051"
+                />
+                <Reference
+                    Name = "Infragistics.Excel.v5.1"
+                    AssemblyName = "Infragistics.Excel.v5.1"
+                    HintPath = "C:\Program Files\Infragistics\NetAdvantage 2005 Volume 1\Windows Forms\Bin\Infragistics.Excel.v5.1.dll"
+                    AssemblyFolderKey = "hklm\infragistics.winassemblies.20051"
+                />
+                <Reference
+                    Name = "Infragistics.Win.UltraWinListBar.v5.1"
+                    AssemblyName = "Infragistics.Win.UltraWinListBar.v5.1"
+                    HintPath = "C:\Program Files\Infragistics\NetAdvantage 2005 Volume 1\Windows Forms\Bin\Infragistics.Win.UltraWinListBar.v5.1.dll"
+                    AssemblyFolderKey = "hklm\infragistics.winassemblies.20051"
+                />
+                <Reference
+                    Name = "Infragistics.Win.UltraWinToolbars.v5.1"
+                    AssemblyName = "Infragistics.Win.UltraWinToolbars.v5.1"
+                    HintPath = "C:\Program Files\Infragistics\NetAdvantage 2005 Volume 1\Windows Forms\Bin\Infragistics.Win.UltraWinToolbars.v5.1.dll"
+                    AssemblyFolderKey = "hklm\infragistics.winassemblies.20051"
+                />
+                <Reference
+                    Name = "Infragistics.Win.UltraWinTabbedMdi.v5.1"
+                    AssemblyName = "Infragistics.Win.UltraWinTabbedMdi.v5.1"
+                    HintPath = "C:\Program Files\Infragistics\NetAdvantage 2005 Volume 1\Windows Forms\Bin\Infragistics.Win.UltraWinTabbedMdi.v5.1.dll"
+                    AssemblyFolderKey = "hklm\infragistics.winassemblies.20051"
+                />
+                <Reference
+                    Name = "Ems_International_Logic"
+                    Project = "{30F75AC8-BB04-4824-98F2-D288EB2C2B32}"
+                    Package = "{F184B08F-C81C-45F6-A57F-5ABD9991F28F}"
+                />
+                <Reference
+                    Name = "sharpziplib"
+                    AssemblyName = "SharpZipLib"
+                    HintPath = "bin\sharpziplib.dll"
+                />
+                <Reference
+                    Name = "ADODB"
+                    Guid = "{2A75196C-D9EB-4129-B803-931327F72D5C}"
+                    VersionMajor = "2"
+                    VersionMinor = "8"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+                <Reference
+                    Name = "ADOR"
+                    Guid = "{00000300-0000-0010-8000-00AA006D2EA4}"
+                    VersionMajor = "2"
+                    VersionMinor = "8"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+                <Reference
+                    Name = "system.data.oracleclient"
+                    AssemblyName = "System.Data.OracleClient"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\system.data.oracleclient.dll"
+                />
+                <Reference
+                    Name = "FTP"
+                    AssemblyName = "FTP"
+                    HintPath = "bin\FTP.dll"
+                />
+                <Reference
+                    Name = "office"
+                    AssemblyName = "Office"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\office.dll"
+                />
+                <Reference
+                    Name = "System.Drawing.Design"
+                    AssemblyName = "System.Drawing.Design"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Drawing.Design.dll"
+                />
+                <Reference
+                    Name = "Microsoft.Vsa.Vb.CodeDOMProcessor"
+                    AssemblyName = "Microsoft.Vsa.Vb.CodeDOMProcessor"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\Microsoft.Vsa.Vb.CodeDOMProcessor.dll"
+                />
+                <Reference
+                    Name = "EASendMail"
+                    AssemblyName = "EASendMail"
+                    HintPath = "bin\EASendMail.dll"
+                />
+                <Reference
+                    Name = "SecurityLib"
+                    AssemblyName = "SecurityLib"
+                    HintPath = "bin\SecurityLib.dll"
+                />
+                <Reference
+                    Name = "System.Management"
+                    AssemblyName = "System.Management"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Management.dll"
+                />
+                <Reference
+                    Name = "Ems_Utility"
+                    AssemblyName = "Ems_Utility"
+                    HintPath = "bin\Ems_Utility.dll"
+                />
+                <Reference
+                    Name = "Infragistics.Win.UltraWinSchedule.v5.1"
+                    AssemblyName = "Infragistics.Win.UltraWinSchedule.v5.1"
+                    HintPath = "C:\Program Files (x86)\Infragistics\NetAdvantage 2005 Volume 1\Windows Forms\Bin\Infragistics.Win.UltraWinSchedule.v5.1.dll"
+                    AssemblyFolderKey = "hklm\infragistics.winassemblies.20051"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Diagnostics" />
+                <Import Namespace = "System.Windows.Forms" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "app.config"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FrmDataBase.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FrmDataBase.resx"
+                    DependentUpon = "FrmDataBase.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "FrmLogin.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FrmLogin.resx"
+                    DependentUpon = "FrmLogin.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "FrmMain.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FrmMain.resx"
+                    DependentUpon = "FrmMain.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "FrmNhapTyGia.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FrmNhapTyGia.resx"
+                    DependentUpon = "FrmNhapTyGia.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "licenses.licx"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Message.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ModifyRegistry.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Startup.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BaoCao\DoanhThu\Data_Doanh_Thu.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "Data_Doanh_Thu.vb"
+                />
+                <File
+                    RelPath = "BaoCao\DoanhThu\Data_Doanh_Thu.vb"
+                    DependentUpon = "Data_Doanh_Thu.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "BaoCao\DoanhThu\Data_Doanh_Thu.xsx"
+                    DependentUpon = "Data_Doanh_Thu.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "BaoCao\DoanhThu\Data_Doanh_Thu_Phat_Sinh.xsd"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "BaoCao\DoanhThu\Data_Doanh_Thu_Phat_Sinh.xsx"
+                    DependentUpon = "Data_Doanh_Thu_Phat_Sinh.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "BaoCao\DoanhThu\Data_Hoa_Hong.xsd"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "BaoCao\DoanhThu\Data_Hoa_Hong.xsx"
+                    DependentUpon = "Data_Hoa_Hong.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "BaoCao\DoanhThu\Doanh_Thu_Lien_Tinh_Lien_Ke.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "Doanh_Thu_Lien_Tinh_Lien_Ke.vb"
+                />
+                <File
+                    RelPath = "BaoCao\DoanhThu\Doanh_Thu_Lien_Tinh_Lien_Ke.vb"
+                    DependentUpon = "Doanh_Thu_Lien_Tinh_Lien_Ke.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "BaoCao\DoanhThu\FrmTongHopDoanhThu.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BaoCao\DoanhThu\FrmTongHopDoanhThu.resx"
+                    DependentUpon = "FrmTongHopDoanhThu.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "BaoCao\DoanhThu\RptDoanh_Thu_HH_DL_Tu_Ngay_Den_Ngay.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptDoanh_Thu_HH_DL_Tu_Ngay_Den_Ngay.vb"
+                />
+                <File
+                    RelPath = "BaoCao\DoanhThu\RptDoanh_Thu_HH_DL_Tu_Ngay_Den_Ngay.vb"
+                    DependentUpon = "RptDoanh_Thu_HH_DL_Tu_Ngay_Den_Ngay.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "BaoCao\DoanhThu\RptDoanh_Thu_HH_DL_Tu_Ngay_Den_Ngay.resx"
+                    DependentUpon = "RptDoanh_Thu_HH_DL_Tu_Ngay_Den_Ngay.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "BaoCao\DoanhThu\RptDoanh_Thu_Phat_Sinh_Tu_Ngay_Den_Ngay.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptDoanh_Thu_Phat_Sinh_Tu_Ngay_Den_Ngay.vb"
+                />
+                <File
+                    RelPath = "BaoCao\DoanhThu\RptDoanh_Thu_Phat_Sinh_Tu_Ngay_Den_Ngay.vb"
+                    DependentUpon = "RptDoanh_Thu_Phat_Sinh_Tu_Ngay_Den_Ngay.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "BaoCao\DoanhThu\RptDoanh_Thu_Phat_Sinh_Tu_Ngay_Den_Ngay.resx"
+                    DependentUpon = "RptDoanh_Thu_Phat_Sinh_Tu_Ngay_Den_Ngay.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "BaoCao\DoanhThu\RptEMS_Lien_Tinh_Lien_Ke.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptEMS_Lien_Tinh_Lien_Ke.vb"
+                />
+                <File
+                    RelPath = "BaoCao\DoanhThu\RptEMS_Lien_Tinh_Lien_Ke.vb"
+                    DependentUpon = "RptEMS_Lien_Tinh_Lien_Ke.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "BaoCao\DoanhThu\RptHH_DL_CP_Tu_Ngay_Den_Ngay.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptHH_DL_CP_Tu_Ngay_Den_Ngay.vb"
+                />
+                <File
+                    RelPath = "BaoCao\DoanhThu\RptHH_DL_CP_Tu_Ngay_Den_Ngay.vb"
+                    DependentUpon = "RptHH_DL_CP_Tu_Ngay_Den_Ngay.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "BaoCao\DoanhThu\RptHH_DL_CP_Tu_Ngay_Den_Ngay.resx"
+                    DependentUpon = "RptHH_DL_CP_Tu_Ngay_Den_Ngay.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "BaoCao\SanLuong\FrmTongHopSanLuong.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BaoCao\SanLuong\FrmTongHopSanLuong.resx"
+                    DependentUpon = "FrmTongHopSanLuong.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "BaoCao\SanLuong\RptDen_Theo_Chuyen_Thu.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptDen_Theo_Chuyen_Thu.vb"
+                />
+                <File
+                    RelPath = "BaoCao\SanLuong\RptDen_Theo_Chuyen_Thu.vb"
+                    DependentUpon = "RptDen_Theo_Chuyen_Thu.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "BaoCao\SanLuong\RptDen_Theo_Duong_Thu.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptDen_Theo_Duong_Thu.vb"
+                />
+                <File
+                    RelPath = "BaoCao\SanLuong\RptDen_Theo_Duong_Thu.vb"
+                    DependentUpon = "RptDen_Theo_Duong_Thu.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "BaoCao\SanLuong\RptDen_Theo_Tui_So.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptDen_Theo_Tui_So.vb"
+                />
+                <File
+                    RelPath = "BaoCao\SanLuong\RptDen_Theo_Tui_So.vb"
+                    DependentUpon = "RptDen_Theo_Tui_So.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "BaoCao\SanLuong\RptDi_Theo_Chuyen_Thu.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptDi_Theo_Chuyen_Thu.vb"
+                />
+                <File
+                    RelPath = "BaoCao\SanLuong\RptDi_Theo_Chuyen_Thu.vb"
+                    DependentUpon = "RptDi_Theo_Chuyen_Thu.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "BaoCao\SanLuong\RptDi_Theo_Duong_Thu.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptDi_Theo_Duong_Thu.vb"
+                />
+                <File
+                    RelPath = "BaoCao\SanLuong\RptDi_Theo_Duong_Thu.vb"
+                    DependentUpon = "RptDi_Theo_Duong_Thu.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "BaoCao\SanLuong\RptDi_Theo_Tui_So.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptDi_Theo_Tui_So.vb"
+                />
+                <File
+                    RelPath = "BaoCao\SanLuong\RptDi_Theo_Tui_So.vb"
+                    DependentUpon = "RptDi_Theo_Tui_So.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "BaoPhat\FrmBaoPhat.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BaoPhat\FrmBaoPhat.resx"
+                    DependentUpon = "FrmBaoPhat.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "BaoPhat\FrmSearchPOD.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "BaoPhat\FrmSearchPOD.resx"
+                    DependentUpon = "FrmSearchPOD.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Buu_Kien_Buu_Pham\Bao_Cao_Buu_Kien_Buu_Pham.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "Bao_Cao_Buu_Kien_Buu_Pham.vb"
+                />
+                <File
+                    RelPath = "Buu_Kien_Buu_Pham\Bao_Cao_Buu_Kien_Buu_Pham.vb"
+                    DependentUpon = "Bao_Cao_Buu_Kien_Buu_Pham.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Buu_Kien_Buu_Pham\Bao_Cao_Buu_Kien_Buu_Pham.xsx"
+                    DependentUpon = "Bao_Cao_Buu_Kien_Buu_Pham.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Buu_Kien_Buu_Pham\Frm_Thong_Ke_Bao_Cao_Buu_Pham_Buu_Kien.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Buu_Kien_Buu_Pham\Frm_Thong_Ke_Bao_Cao_Buu_Pham_Buu_Kien.resx"
+                    DependentUpon = "Frm_Thong_Ke_Bao_Cao_Buu_Pham_Buu_Kien.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Buu_Kien_Buu_Pham\Bao_Cao_Bao_Bieu\Rpt_Bao_Cao_Buu_Pham_Buu_Kien_Ty_Le_Thong_Quan.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "Rpt_Bao_Cao_Buu_Pham_Buu_Kien_Ty_Le_Thong_Quan.vb"
+                />
+                <File
+                    RelPath = "Buu_Kien_Buu_Pham\Bao_Cao_Bao_Bieu\Rpt_Bao_Cao_Buu_Pham_Buu_Kien_Ty_Le_Thong_Quan.vb"
+                    DependentUpon = "Rpt_Bao_Cao_Buu_Pham_Buu_Kien_Ty_Le_Thong_Quan.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Buu_Kien_Buu_Pham\Bao_Cao_Bao_Bieu\Rpt_Bao_Cao_Tong_Hop_San_Luong_Buu_Kien_Quoc_Te_Den.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "Rpt_Bao_Cao_Tong_Hop_San_Luong_Buu_Kien_Quoc_Te_Den.vb"
+                />
+                <File
+                    RelPath = "Buu_Kien_Buu_Pham\Bao_Cao_Bao_Bieu\Rpt_Bao_Cao_Tong_Hop_San_Luong_Buu_Kien_Quoc_Te_Den.vb"
+                    DependentUpon = "Rpt_Bao_Cao_Tong_Hop_San_Luong_Buu_Kien_Quoc_Te_Den.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "ChucNang\Frm_Bao_Cao_Quan_Ly_Kho_Hai_Quan.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ChucNang\Frm_Bao_Cao_Quan_Ly_Kho_Hai_Quan.resx"
+                    DependentUpon = "Frm_Bao_Cao_Quan_Ly_Kho_Hai_Quan.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ChucNang\Frm_Cap_Nhat_CN43.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ChucNang\Frm_Cap_Nhat_CN43.resx"
+                    DependentUpon = "Frm_Cap_Nhat_CN43.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ChucNang\Frm_Tao_Va_In_CN55.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ChucNang\Frm_Tao_Va_In_CN55.resx"
+                    DependentUpon = "Frm_Tao_Va_In_CN55.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ChucNang\Frm_Thiet_Lap_Va_In_Ban_Ke.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ChucNang\Frm_Thiet_Lap_Va_In_Ban_Ke.resx"
+                    DependentUpon = "Frm_Thiet_Lap_Va_In_Ban_Ke.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ChucNang\FrmBan_Ke_A1.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ChucNang\FrmBan_Ke_A1.resx"
+                    DependentUpon = "FrmBan_Ke_A1.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ChucNang\FrmBan_Ke_A1_Noi_Bai.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ChucNang\FrmBan_Ke_A1_Noi_Bai.resx"
+                    DependentUpon = "FrmBan_Ke_A1_Noi_Bai.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ChucNang\frmBaoCaoHaiQuan.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ChucNang\frmBaoCaoHaiQuan.resx"
+                    DependentUpon = "frmBaoCaoHaiQuan.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ChucNang\FrmCheck.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ChucNang\FrmCheck.resx"
+                    DependentUpon = "FrmCheck.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ChucNang\FrmLayDuLieuHaiQuan.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ChucNang\FrmLayDuLieuHaiQuan.resx"
+                    DependentUpon = "FrmLayDuLieuHaiQuan.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ChucNang\FrmQuanLyChuyenThu.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ChucNang\FrmQuanLyChuyenThu.resx"
+                    DependentUpon = "FrmQuanLyChuyenThu.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ChucNang\FrmThongTinKeToan.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ChucNang\FrmThongTinKeToan.resx"
+                    DependentUpon = "FrmThongTinKeToan.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ChucNang\Cuoc_Hang_Khong\Ds_Cuoc_Hang_Khong.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "Ds_Cuoc_Hang_Khong.vb"
+                />
+                <File
+                    RelPath = "ChucNang\Cuoc_Hang_Khong\Ds_Cuoc_Hang_Khong.vb"
+                    DependentUpon = "Ds_Cuoc_Hang_Khong.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "ChucNang\Cuoc_Hang_Khong\Ds_Cuoc_Hang_Khong.xsx"
+                    DependentUpon = "Ds_Cuoc_Hang_Khong.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "ChucNang\Cuoc_Hang_Khong\FrmBang_Cuoc_Hang_Khong.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ChucNang\Cuoc_Hang_Khong\FrmBang_Cuoc_Hang_Khong.resx"
+                    DependentUpon = "FrmBang_Cuoc_Hang_Khong.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ChucNang\Cuoc_Hang_Khong\FrmQuan_Ly_Cuoc_Hang_Khong.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ChucNang\Cuoc_Hang_Khong\FrmQuan_Ly_Cuoc_Hang_Khong.resx"
+                    DependentUpon = "FrmQuan_Ly_Cuoc_Hang_Khong.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ChucNang\Cuoc_Hang_Khong\RptBang_Ke_Chi_Tiet_Cuoc_Hang_Khong.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptBang_Ke_Chi_Tiet_Cuoc_Hang_Khong.vb"
+                />
+                <File
+                    RelPath = "ChucNang\Cuoc_Hang_Khong\RptBang_Ke_Chi_Tiet_Cuoc_Hang_Khong.vb"
+                    DependentUpon = "RptBang_Ke_Chi_Tiet_Cuoc_Hang_Khong.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "ChucNang\Cuoc_Hang_Khong\RptBang_Ke_Tong_Hop_Cuoc_Hang_Khong.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptBang_Ke_Tong_Hop_Cuoc_Hang_Khong.vb"
+                />
+                <File
+                    RelPath = "ChucNang\Cuoc_Hang_Khong\RptBang_Ke_Tong_Hop_Cuoc_Hang_Khong.vb"
+                    DependentUpon = "RptBang_Ke_Tong_Hop_Cuoc_Hang_Khong.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "COD\FrmBaoCaoCOD.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "COD\FrmBaoCaoCOD.resx"
+                    DependentUpon = "FrmBaoCaoCOD.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "COD\FrmCOD.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "COD\FrmCOD.resx"
+                    DependentUpon = "FrmCOD.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Common\Ban_ke_E2_Di_Receptacle.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Common\Common.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Common\ConvertNumberToString.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Common\Draw_Clock.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Common\General.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Common\Mdl_Event_Viewer.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Doi_Soat_Quoc_Te\Frm_Bao_Cao_Doi_Soat_QT.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Doi_Soat_Quoc_Te\Frm_Bao_Cao_Doi_Soat_QT.resx"
+                    DependentUpon = "Frm_Bao_Cao_Doi_Soat_QT.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Doi_Soat_Quoc_Te\Frm_Chi_Tiet_Tong_Hop.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Doi_Soat_Quoc_Te\Frm_Chi_Tiet_Tong_Hop.resx"
+                    DependentUpon = "Frm_Chi_Tiet_Tong_Hop.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Doi_Soat_Quoc_Te\Frm_Chinh_Sua_CN55.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Doi_Soat_Quoc_Te\Frm_Chinh_Sua_CN55.resx"
+                    DependentUpon = "Frm_Chinh_Sua_CN55.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Doi_Soat_Quoc_Te\Frm_Chinh_Sua_CN56.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Doi_Soat_Quoc_Te\Frm_Chinh_Sua_CN56.resx"
+                    DependentUpon = "Frm_Chinh_Sua_CN56.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Doi_Soat_Quoc_Te\Frm_Cuoc_Qua_Giang_Qua_HK.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Doi_Soat_Quoc_Te\Frm_Cuoc_Qua_Giang_Qua_HK.resx"
+                    DependentUpon = "Frm_Cuoc_Qua_Giang_Qua_HK.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Doi_Soat_Quoc_Te\Frm_Cuoc_Qua_Giang_Qua_JNE.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Doi_Soat_Quoc_Te\Frm_Cuoc_Qua_Giang_Qua_JNE.resx"
+                    DependentUpon = "Frm_Cuoc_Qua_Giang_Qua_JNE.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Doi_Soat_Quoc_Te\Frm_Cuoc_Qua_Giang_Qua_SIN.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Doi_Soat_Quoc_Te\Frm_Cuoc_Qua_Giang_Qua_SIN.resx"
+                    DependentUpon = "Frm_Cuoc_Qua_Giang_Qua_SIN.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Doi_Soat_Quoc_Te\Frm_Cuoc_Quoc_Te_Den.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Doi_Soat_Quoc_Te\Frm_Cuoc_Quoc_Te_Den.resx"
+                    DependentUpon = "Frm_Cuoc_Quoc_Te_Den.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Doi_Soat_Quoc_Te\Frm_Cuoc_Quoc_Te_Di.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Doi_Soat_Quoc_Te\Frm_Cuoc_Quoc_Te_Di.resx"
+                    DependentUpon = "Frm_Cuoc_Quoc_Te_Di.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Doi_Soat_Quoc_Te\Frm_Danh_Muc_Doi_Soat.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Doi_Soat_Quoc_Te\Frm_Danh_Muc_Doi_Soat.resx"
+                    DependentUpon = "Frm_Danh_Muc_Doi_Soat.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Doi_Soat_Quoc_Te\Frm_Doi_Soat_Quoc_Te.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Doi_Soat_Quoc_Te\Frm_Doi_Soat_Quoc_Te.resx"
+                    DependentUpon = "Frm_Doi_Soat_Quoc_Te.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Doi_Soat_Quoc_Te\Frm_In_CN56.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Doi_Soat_Quoc_Te\Frm_In_CN56.resx"
+                    DependentUpon = "Frm_In_CN56.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Doi_Soat_Quoc_Te\Frm_Tinh_Cuoc_Doi_Soat.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Doi_Soat_Quoc_Te\Frm_Tinh_Cuoc_Doi_Soat.resx"
+                    DependentUpon = "Frm_Tinh_Cuoc_Doi_Soat.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Doi_Soat_Quoc_Te\Tong_Hop_Bao_Cao\DSQT_Common.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Doi_Soat_Quoc_Te\Tong_Hop_Bao_Cao\DSQT_DataSet.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "DSQT_DataSet.vb"
+                />
+                <File
+                    RelPath = "Doi_Soat_Quoc_Te\Tong_Hop_Bao_Cao\DSQT_DataSet.vb"
+                    DependentUpon = "DSQT_DataSet.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Doi_Soat_Quoc_Te\Tong_Hop_Bao_Cao\DSQT_DataSet.xsx"
+                    DependentUpon = "DSQT_DataSet.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Doi_Soat_Quoc_Te\Tong_Hop_Bao_Cao\Frm_DSQT_ViewReports.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Doi_Soat_Quoc_Te\Tong_Hop_Bao_Cao\Frm_DSQT_ViewReports.resx"
+                    DependentUpon = "Frm_DSQT_ViewReports.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Doi_Soat_Quoc_Te\Tong_Hop_Bao_Cao\rptDSQT_Bao_Cao_Tong_Hop_Doanh_Thu.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptDSQT_Bao_Cao_Tong_Hop_Doanh_Thu1.vb"
+                />
+                <File
+                    RelPath = "Doi_Soat_Quoc_Te\Tong_Hop_Bao_Cao\rptDSQT_Bao_Cao_Tong_Hop_Doanh_Thu1.vb"
+                    DependentUpon = "rptDSQT_Bao_Cao_Tong_Hop_Doanh_Thu.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Doi_Soat_Quoc_Te\Tong_Hop_Bao_Cao\rptDSQT_Bao_Cao_Tong_Hop_Doanh_Thu_Cuoc_VCMBND_Theo_Nam.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptDSQT_Bao_Cao_Tong_Hop_Doanh_Thu_Cuoc_VCMBND_Theo_Nam.vb"
+                />
+                <File
+                    RelPath = "Doi_Soat_Quoc_Te\Tong_Hop_Bao_Cao\rptDSQT_Bao_Cao_Tong_Hop_Doanh_Thu_Cuoc_VCMBND_Theo_Nam.vb"
+                    DependentUpon = "rptDSQT_Bao_Cao_Tong_Hop_Doanh_Thu_Cuoc_VCMBND_Theo_Nam.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "HeThong\Frm_Truyen_Predes_Resdes.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HeThong\Frm_Truyen_Predes_Resdes.resx"
+                    DependentUpon = "Frm_Truyen_Predes_Resdes.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HeThong\FrmCacBangDanhMuc.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HeThong\FrmCacBangDanhMuc.resx"
+                    DependentUpon = "FrmCacBangDanhMuc.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HeThong\FrmCacBangDanhMucCuoc.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HeThong\FrmCacBangDanhMucCuoc.resx"
+                    DependentUpon = "FrmCacBangDanhMucCuoc.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HeThong\FrmCaKeToan.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HeThong\FrmCaKeToan.resx"
+                    DependentUpon = "FrmCaKeToan.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HeThong\FrmCauHinhCoSoDuLieu.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HeThong\FrmCauHinhCoSoDuLieu.resx"
+                    DependentUpon = "FrmCauHinhCoSoDuLieu.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HeThong\FrmDichVuDuLieu.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HeThong\FrmDichVuDuLieu.resx"
+                    DependentUpon = "FrmDichVuDuLieu.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HeThong\FrmEventViewer.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HeThong\FrmEventViewer.resx"
+                    DependentUpon = "FrmEventViewer.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HeThong\FrmHoadon.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HeThong\FrmHoadon.resx"
+                    DependentUpon = "FrmHoadon.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HeThong\FrmLichSaoLuu.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HeThong\FrmLichSaoLuu.resx"
+                    DependentUpon = "FrmLichSaoLuu.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HeThong\FrmMaBCKhaiThac.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HeThong\FrmMaBCKhaiThac.resx"
+                    DependentUpon = "FrmMaBCKhaiThac.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HeThong\FrmQuanLyNguoiDung.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HeThong\FrmQuanLyNguoiDung.resx"
+                    DependentUpon = "FrmQuanLyNguoiDung.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HeThong\FrmThietLapThamSoHeThong.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HeThong\FrmThietLapThamSoHeThong.resx"
+                    DependentUpon = "FrmThietLapThamSoHeThong.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HeThong\FrmThongTinHeThong.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HeThong\FrmThongTinHeThong.resx"
+                    DependentUpon = "FrmThongTinHeThong.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HeThong\FrmThongTinNguoiDung.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HeThong\FrmThongTinNguoiDung.resx"
+                    DependentUpon = "FrmThongTinNguoiDung.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HeThong\FrmTimKiemDanhMuc.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HeThong\FrmTimKiemDanhMuc.resx"
+                    DependentUpon = "FrmTimKiemDanhMuc.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HeThong\FrmVaoCa.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HeThong\FrmVaoCa.resx"
+                    DependentUpon = "FrmVaoCa.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HeThong\FrmXacNhanCa.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HeThong\FrmXacNhanCa.resx"
+                    DependentUpon = "FrmXacNhanCa.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HeThong\FrmXacNhanCaLamViec.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HeThong\FrmXacNhanCaLamViec.resx"
+                    DependentUpon = "FrmXacNhanCaLamViec.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HeThong\Danh Muc\frmKiemTraLacHuongDen.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HeThong\Danh Muc\frmKiemTraLacHuongDen.resx"
+                    DependentUpon = "frmKiemTraLacHuongDen.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HeThong\Danh Muc\frmKiemTraLacHuongDi.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HeThong\Danh Muc\frmKiemTraLacHuongDi.resx"
+                    DependentUpon = "frmKiemTraLacHuongDi.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "KhaiThac\FrmDanh_Muc_Cuoc_Vung_Xa.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "KhaiThac\FrmDanh_Muc_Cuoc_Vung_Xa.resx"
+                    DependentUpon = "FrmDanh_Muc_Cuoc_Vung_Xa.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "KhaiThac\FrmDoiSoatDiDen.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "KhaiThac\FrmDoiSoatDiDen.resx"
+                    DependentUpon = "FrmDoiSoatDiDen.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "KhaiThac\FrmKhoaSoLieu.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "KhaiThac\FrmKhoaSoLieu.resx"
+                    DependentUpon = "FrmKhoaSoLieu.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "KhaiThac\FrmSuaChuaE1.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "KhaiThac\FrmSuaChuaE1.resx"
+                    DependentUpon = "FrmSuaChuaE1.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "KhaiThac\FrmSuaChuaE2.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "KhaiThac\FrmSuaChuaE2.resx"
+                    DependentUpon = "FrmSuaChuaE2.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "KhaiThac\FrmSuaChuaE2Den.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "KhaiThac\FrmSuaChuaE2Den.resx"
+                    DependentUpon = "FrmSuaChuaE2Den.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "KhaiThac\FrmThietLapE2Di.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "KhaiThac\FrmThietLapE2Di.resx"
+                    DependentUpon = "FrmThietLapE2Di.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "KhaiThac\FrmTinh_Hang_Nhe.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "KhaiThac\FrmTinh_Hang_Nhe.resx"
+                    DependentUpon = "FrmTinh_Hang_Nhe.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "KhaiThac\FrmXacNhanE2Den.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "KhaiThac\FrmXacNhanE2Den.resx"
+                    DependentUpon = "FrmXacNhanE2Den.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "KhaiThac\FrmXacNhanE2Den_INB001.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "KhaiThac\FrmXacNhanE2Den_INB001.resx"
+                    DependentUpon = "FrmXacNhanE2Den_INB001.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\{D15374E8-D3D9-4653-9660-96D385A93368}.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "{D15374E8-D3D9-4653-9660-96D385A93368}.vb"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\{D15374E8-D3D9-4653-9660-96D385A93368}.vb"
+                    DependentUpon = "{D15374E8-D3D9-4653-9660-96D385A93368}.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\dsKiem_Hoa.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "dsKiem_Hoa.vb"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\dsKiem_Hoa.vb"
+                    DependentUpon = "dsKiem_Hoa.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\dsKiem_Hoa.xsx"
+                    DependentUpon = "dsKiem_Hoa.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\Frm_Lap_To_Khai_Hang_Xuat.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\Frm_Lap_To_Khai_Hang_Xuat.resx"
+                    DependentUpon = "Frm_Lap_To_Khai_Hang_Xuat.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\Frm_Lap_To_Khai_Hang_Xuat_HCM.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\Frm_Lap_To_Khai_Hang_Xuat_HCM.resx"
+                    DependentUpon = "Frm_Lap_To_Khai_Hang_Xuat_HCM.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\Frm_Sua_Chua_To_Khai.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\Frm_Sua_Chua_To_Khai.resx"
+                    DependentUpon = "Frm_Sua_Chua_To_Khai.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\Frm_Tim_Kiem_To_Khai.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\Frm_Tim_Kiem_To_Khai.resx"
+                    DependentUpon = "Frm_Tim_Kiem_To_Khai.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\FrmPrint_Kiem_Hoa.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\FrmPrint_Kiem_Hoa.resx"
+                    DependentUpon = "FrmPrint_Kiem_Hoa.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\rpt_To_Khai_Hang_Xuat_Chi_Tiet.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rpt_To_Khai_Hang_Xuat_Chi_Tiet.vb"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\rpt_To_Khai_Hang_Xuat_Chi_Tiet.vb"
+                    DependentUpon = "rpt_To_Khai_Hang_Xuat_Chi_Tiet.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\rpt_To_Khai_Hang_Xuat_Khau_Chi_Tiet.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rpt_To_Khai_Hang_Xuat_Khau_Chi_Tiet.vb"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\rpt_To_Khai_Hang_Xuat_Khau_Chi_Tiet.vb"
+                    DependentUpon = "rpt_To_Khai_Hang_Xuat_Khau_Chi_Tiet.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\rpt06_PGKQKT_GSQL_Chuyen_Hoan_HCM.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rpt06_PGKQKT_GSQL_Chuyen_Hoan_HCM.vb"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\rpt06_PGKQKT_GSQL_Chuyen_Hoan_HCM.vb"
+                    DependentUpon = "rpt06_PGKQKT_GSQL_Chuyen_Hoan_HCM.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\rpt06_PGKQKT_GSQL_HAN_Chuyen_Hoan.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rpt06_PGKQKT_GSQL_HAN_Chuyen_Hoan.vb"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\rpt06_PGKQKT_GSQL_HAN_Chuyen_Hoan.vb"
+                    DependentUpon = "rpt06_PGKQKT_GSQL_HAN_Chuyen_Hoan.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\rpt06_PGKQKT_GSQL_HAN_Soi_May.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rpt06_PGKQKT_GSQL_HAN_Soi_May.vb"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\rpt06_PGKQKT_GSQL_HAN_Soi_May.vb"
+                    DependentUpon = "rpt06_PGKQKT_GSQL_HAN_Soi_May.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\rpt06_PGKQKT_GSQL_HAN_Soi_May_HCM.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rpt06_PGKQKT_GSQL_HAN_Soi_May_HCM.vb"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\rpt06_PGKQKT_GSQL_HAN_Soi_May_HCM.vb"
+                    DependentUpon = "rpt06_PGKQKT_GSQL_HAN_Soi_May_HCM.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\rptBang_Ke_Bui_Gui_Chuyen_Hoan_Chi_Tiet_HQ2015XK.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptBang_Ke_Bui_Gui_Chuyen_Hoan_Chi_Tiet_HQ2015XK.vb"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\rptBang_Ke_Bui_Gui_Chuyen_Hoan_Chi_Tiet_HQ2015XK.vb"
+                    DependentUpon = "rptBang_Ke_Bui_Gui_Chuyen_Hoan_Chi_Tiet_HQ2015XK.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\rptBang_Ke_Bui_Gui_Xuat_Khau_Chi_Tiet_HQ2015XK.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptBang_Ke_Bui_Gui_Xuat_Khau_Chi_Tiet_HQ2015XK.vb"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\rptBang_Ke_Bui_Gui_Xuat_Khau_Chi_Tiet_HQ2015XK.vb"
+                    DependentUpon = "rptBang_Ke_Bui_Gui_Xuat_Khau_Chi_Tiet_HQ2015XK.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\RptBang_Ke_Chi_Tiet_Hang_Hoa_Nhap_Khau_Khong_Thue.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptBang_Ke_Chi_Tiet_Hang_Hoa_Nhap_Khau_Khong_Thue.vb"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\RptBang_Ke_Chi_Tiet_Hang_Hoa_Nhap_Khau_Khong_Thue.vb"
+                    DependentUpon = "RptBang_Ke_Chi_Tiet_Hang_Hoa_Nhap_Khau_Khong_Thue.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\RptBang_Ke_Chi_Tiet_Hang_Hoa_Xuat_Khau_Khong_Thue.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptBang_Ke_Chi_Tiet_Hang_Hoa_Xuat_Khau_Khong_Thue.vb"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\RptBang_Ke_Chi_Tiet_Hang_Hoa_Xuat_Khau_Khong_Thue.vb"
+                    DependentUpon = "RptBang_Ke_Chi_Tiet_Hang_Hoa_Xuat_Khau_Khong_Thue.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\rptPhu_Luc_To_Khai_Hang_Hoa_Xuat_Khau_HQ2015PLXK.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptPhu_Luc_To_Khai_Hang_Hoa_Xuat_Khau_HQ2015PLXK.vb"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\rptPhu_Luc_To_Khai_Hang_Hoa_Xuat_Khau_HQ2015PLXK.vb"
+                    DependentUpon = "rptPhu_Luc_To_Khai_Hang_Hoa_Xuat_Khau_HQ2015PLXK.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\rptTo_Khai_Hang_Hoa_Xuat_Khau_HQ2015XK.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptTo_Khai_Hang_Hoa_Xuat_Khau_HQ2015XK1.vb"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\rptTo_Khai_Hang_Hoa_Xuat_Khau_HQ2015XK.vb"
+                    DependentUpon = "rptTo_Khai_Hang_Hoa_Xuat_Khau_HQ2015XK.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\rptTo_Khai_Hang_Hoa_Xuat_Khau_HQ2015XK_HCM.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptTo_Khai_Hang_Hoa_Xuat_Khau_HQ2015XK_HCM.vb"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\rptTo_Khai_Hang_Hoa_Xuat_Khau_HQ2015XK_HCM.vb"
+                    DependentUpon = "rptTo_Khai_Hang_Hoa_Xuat_Khau_HQ2015XK_HCM.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\rptTo_Khai_Hang_Hoa_Xuat_Khau_HQ2015XK_HCM_Tai_Lieu.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptTo_Khai_Hang_Hoa_Xuat_Khau_HQ2015XK_HCM_Tai_Lieu.vb"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\rptTo_Khai_Hang_Hoa_Xuat_Khau_HQ2015XK_HCM_Tai_Lieu.vb"
+                    DependentUpon = "rptTo_Khai_Hang_Hoa_Xuat_Khau_HQ2015XK_HCM_Tai_Lieu.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\rptTo_Khai_Hang_Xuat.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptTo_Khai_Hang_Xuat.vb"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\rptTo_Khai_Hang_Xuat.vb"
+                    DependentUpon = "rptTo_Khai_Hang_Xuat.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\rptTo_Khai_Hang_Xuat_Phu_Luc.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptTo_Khai_Hang_Xuat_Phu_Luc.vb"
+                />
+                <File
+                    RelPath = "Kiem_Hoa_Hang_Xuat\rptTo_Khai_Hang_Xuat_Phu_Luc.vb"
+                    DependentUpon = "rptTo_Khai_Hang_Xuat_Phu_Luc.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "OutBound\Frm_Ems_Shipping.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "OutBound\Frm_Ems_Shipping.resx"
+                    DependentUpon = "Frm_Ems_Shipping.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "OutBound\FrmBao_Cao_E_Shipping.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "OutBound\FrmBao_Cao_E_Shipping.resx"
+                    DependentUpon = "FrmBao_Cao_E_Shipping.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "OutBound\FrmBaoCao.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "OutBound\FrmBaoCao.resx"
+                    DependentUpon = "FrmBaoCao.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "OutBound\frmChuyenMaE1.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "OutBound\frmChuyenMaE1.resx"
+                    DependentUpon = "frmChuyenMaE1.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "OutBound\FrmInGiayBienNhan.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "OutBound\FrmInGiayBienNhan.resx"
+                    DependentUpon = "FrmInGiayBienNhan.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "OutBound\FrmSuaChuaE2.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "OutBound\FrmSuaChuaE2.resx"
+                    DependentUpon = "FrmSuaChuaE2.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "OutBound\FrmSuaChuaE2Den.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "OutBound\FrmSuaChuaE2Den.resx"
+                    DependentUpon = "FrmSuaChuaE2Den.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "OutBound\FrmThietLapDi.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "OutBound\FrmThietLapDi.resx"
+                    DependentUpon = "FrmThietLapDi.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "OutBound\FrmThietLapDi_Out001.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "OutBound\FrmThietLapDi_Out001.resx"
+                    DependentUpon = "FrmThietLapDi_Out001.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "OutBound\FrmThongKeBaoCao.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "OutBound\FrmThongKeBaoCao.resx"
+                    DependentUpon = "FrmThongKeBaoCao.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "OutBound\frmThongKeE1ChuyenDauMa.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "OutBound\frmThongKeE1ChuyenDauMa.resx"
+                    DependentUpon = "frmThongKeE1ChuyenDauMa.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "OutBound\FrmXacNhanDen.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "OutBound\FrmXacNhanDen.resx"
+                    DependentUpon = "FrmXacNhanDen.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "OutBound\Bao_Cao\Dataset_OutBound.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "Dataset_OutBound.vb"
+                />
+                <File
+                    RelPath = "OutBound\Bao_Cao\Dataset_OutBound.vb"
+                    DependentUpon = "Dataset_OutBound.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "OutBound\Bao_Cao\Dataset_OutBound.xsx"
+                    DependentUpon = "Dataset_OutBound.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "OutBound\Bao_Cao\rpt_Ban_Ke_BV10_QT_Di.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rpt_Ban_Ke_BV10_QT_Di.vb"
+                />
+                <File
+                    RelPath = "OutBound\Bao_Cao\rpt_Ban_Ke_BV10_QT_Di.vb"
+                    DependentUpon = "rpt_Ban_Ke_BV10_QT_Di.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "OutBound\Bao_Cao\rpt_Ban_Ke_BV10_QT_Di.resx"
+                    DependentUpon = "rpt_Ban_Ke_BV10_QT_Di.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "OutBound\Bao_Cao\RptAuto_E1.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptAuto_E1.vb"
+                />
+                <File
+                    RelPath = "OutBound\Bao_Cao\RptAuto_E1.vb"
+                    DependentUpon = "RptAuto_E1.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Quan_Ly_Thue_Le_Phi_HQ\Frm_Quan_Ly_Thu_No_Hai_Quan.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Quan_Ly_Thue_Le_Phi_HQ\Frm_Quan_Ly_Thu_No_Hai_Quan.resx"
+                    DependentUpon = "Frm_Quan_Ly_Thu_No_Hai_Quan.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Quan_Ly_Thue_Le_Phi_HQ\Frm_Quan_Ly_Thu_No_Thue_Le_Phi_HQ.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Quan_Ly_Thue_Le_Phi_HQ\Frm_Quan_Ly_Thu_No_Thue_Le_Phi_HQ.resx"
+                    DependentUpon = "Frm_Quan_Ly_Thu_No_Thue_Le_Phi_HQ.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Quan_Ly_Thue_Le_Phi_HQ\Frm_Tong_Hop_Thue_Le_Phi_HQ.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Quan_Ly_Thue_Le_Phi_HQ\Frm_Tong_Hop_Thue_Le_Phi_HQ.resx"
+                    DependentUpon = "Frm_Tong_Hop_Thue_Le_Phi_HQ.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Quan_Ly_Thue_Le_Phi_HQ\Bao_cao\Quan_Ly_Thue_Le_Phi_HQ.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "Quan_Ly_Thue_Le_Phi_HQ.vb"
+                />
+                <File
+                    RelPath = "Quan_Ly_Thue_Le_Phi_HQ\Bao_cao\Quan_Ly_Thue_Le_Phi_HQ.vb"
+                    DependentUpon = "Quan_Ly_Thue_Le_Phi_HQ.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Quan_Ly_Thue_Le_Phi_HQ\Bao_cao\Quan_Ly_Thue_Le_Phi_HQ.xsx"
+                    DependentUpon = "Quan_Ly_Thue_Le_Phi_HQ.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Quan_Ly_Thue_Le_Phi_HQ\Bao_cao\rptBan_Ke_Buu_Pham_Thu_Tien.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptBan_Ke_Buu_Pham_Thu_Tien.vb"
+                />
+                <File
+                    RelPath = "Quan_Ly_Thue_Le_Phi_HQ\Bao_cao\rptBan_Ke_Buu_Pham_Thu_Tien.vb"
+                    DependentUpon = "rptBan_Ke_Buu_Pham_Thu_Tien.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Quan_Ly_Thue_Le_Phi_HQ\Bao_cao\rptBan_Ke_Buu_Pham_Thu_Tien_Theo_Tung_Don_Vi.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptBan_Ke_Buu_Pham_Thu_Tien_Theo_Tung_Don_Vi.vb"
+                />
+                <File
+                    RelPath = "Quan_Ly_Thue_Le_Phi_HQ\Bao_cao\rptBan_Ke_Buu_Pham_Thu_Tien_Theo_Tung_Don_Vi.vb"
+                    DependentUpon = "rptBan_Ke_Buu_Pham_Thu_Tien_Theo_Tung_Don_Vi.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Quan_Ly_Thue_Le_Phi_HQ\Bao_cao\rptTong_Hop_Thue_Va_Le_Phi.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptTong_Hop_Thue_Va_Le_Phi.vb"
+                />
+                <File
+                    RelPath = "Quan_Ly_Thue_Le_Phi_HQ\Bao_cao\rptTong_Hop_Thue_Va_Le_Phi.vb"
+                    DependentUpon = "rptTong_Hop_Thue_Va_Le_Phi.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\dsQLTGND.xsd"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\dsQLTGND.xsx"
+                    DependentUpon = "dsQLTGND.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\DycryptBarCode.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\frmBaoCaoBC37.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\frmBaoCaoBC37.resx"
+                    DependentUpon = "frmBaoCaoBC37.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\FrmDuLieu.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\FrmDuLieu.resx"
+                    DependentUpon = "FrmDuLieu.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\FrmIn_BC37_Tap_Trung.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\FrmIn_BC37_Tap_Trung.resx"
+                    DependentUpon = "FrmIn_BC37_Tap_Trung.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\FrmIn_Nhan_E4_Label.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\FrmIn_Nhan_E4_Label.resx"
+                    DependentUpon = "FrmIn_Nhan_E4_Label.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\FrmMonitor_Tuyen_Giao_BC37.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\FrmMonitor_Tuyen_Giao_BC37.resx"
+                    DependentUpon = "FrmMonitor_Tuyen_Giao_BC37.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\FrmNhap_Thay_The_BC37.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\FrmNhap_Thay_The_BC37.resx"
+                    DependentUpon = "FrmNhap_Thay_The_BC37.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\FrmNhap_Thay_The_E2.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\FrmNhap_Thay_The_E2.resx"
+                    DependentUpon = "FrmNhap_Thay_The_E2.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\FrmQuan_Ly_BC37_Den_Di.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\FrmQuan_Ly_BC37_Den_Di.resx"
+                    DependentUpon = "FrmQuan_Ly_BC37_Den_Di.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\frmXacNhanBC37Den.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\frmXacNhanBC37Den.resx"
+                    DependentUpon = "frmXacNhanBC37Den.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\frmXacNhanBC37Di.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\frmXacNhanBC37Di.resx"
+                    DependentUpon = "frmXacNhanBC37Di.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\frmXacNhanTuiDen.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\frmXacNhanTuiDen.resx"
+                    DependentUpon = "frmXacNhanTuiDen.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\frmXacNhanTuiDi.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\frmXacNhanTuiDi.resx"
+                    DependentUpon = "frmXacNhanTuiDi.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\FrmXem_ChiTiet_BC37.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\FrmXem_ChiTiet_BC37.resx"
+                    DependentUpon = "FrmXem_ChiTiet_BC37.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\QLTGND_Common.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\rptBC37_QLTG.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptBC37_QLTG.vb"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\rptBC37_QLTG.vb"
+                    DependentUpon = "rptBC37_QLTG.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\rptBC37_QLTG_NoGroup.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptBC37_QLTG_NoGroup.vb"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\rptBC37_QLTG_NoGroup.vb"
+                    DependentUpon = "rptBC37_QLTG_NoGroup.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\rptNhan_E4_Label.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptNhan_E4_Label.vb"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\rptNhan_E4_Label.vb"
+                    DependentUpon = "rptNhan_E4_Label.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\rptNhan_E4_New.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptNhan_E4_New.vb"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\rptNhan_E4_New.vb"
+                    DependentUpon = "rptNhan_E4_New.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\rptThongKeBC37DenDi_QLTG.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptThongKeBC37DenDi_QLTG.vb"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\rptThongKeBC37DenDi_QLTG.vb"
+                    DependentUpon = "rptThongKeBC37DenDi_QLTG.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\rptThongKeBC37DenDi_TH_QLTG.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptThongKeBC37DenDi_TH_QLTG.vb"
+                />
+                <File
+                    RelPath = "Quan_Ly_Tui_Goi\rptThongKeBC37DenDi_TH_QLTG.vb"
+                    DependentUpon = "rptThongKeBC37DenDi_TH_QLTG.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\Bao_Phat_Ems_Khong_Nhap_Theo_Ma_BC.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "Bao_Phat_Ems_Khong_Nhap_Theo_Ma_BC.vb"
+                />
+                <File
+                    RelPath = "Reports\Bao_Phat_Ems_Khong_Nhap_Theo_Ma_BC.vb"
+                    DependentUpon = "Bao_Phat_Ems_Khong_Nhap_Theo_Ma_BC.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\Check.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Reports\Check.resx"
+                    DependentUpon = "Check.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Reports\COD.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "COD.vb"
+                />
+                <File
+                    RelPath = "Reports\COD.vb"
+                    DependentUpon = "COD.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\COD.xsx"
+                    DependentUpon = "COD.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Reports\Danh_Sach_Nuoc.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "Danh_Sach_Nuoc.vb"
+                />
+                <File
+                    RelPath = "Reports\Danh_Sach_Nuoc.vb"
+                    DependentUpon = "Danh_Sach_Nuoc.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\do_mydata.xsd"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Reports\do_mydata.xsx"
+                    DependentUpon = "do_mydata.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Reports\dsCN08.xsd"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Reports\dsCN08.xsx"
+                    DependentUpon = "dsCN08.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Reports\dsCN35.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "dsCN35.vb"
+                />
+                <File
+                    RelPath = "Reports\dsCN35.vb"
+                    DependentUpon = "dsCN35.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\dsCN35.xsx"
+                    DependentUpon = "dsCN35.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Reports\dsReports.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "dsReports2.vb"
+                />
+                <File
+                    RelPath = "Reports\dsReports.xsx"
+                    DependentUpon = "dsReports.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Reports\dsReports2.vb"
+                    DependentUpon = "dsReports.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\E4in.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Reports\E4in.resx"
+                    DependentUpon = "E4in.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Reports\FrmPrintManual.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Reports\FrmPrintManual.resx"
+                    DependentUpon = "FrmPrintManual.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Reports\FrmViewReports.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Reports\FrmViewReports.resx"
+                    DependentUpon = "FrmViewReports.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Reports\Rpt_Danh_Sach_Buu_Pham_Di_Cac_Tinh_Gui_Call_Center.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "Rpt_Danh_Sach_Buu_Pham_Di_Cac_Tinh_Gui_Call_Center.vb"
+                />
+                <File
+                    RelPath = "Reports\Rpt_Danh_Sach_Buu_Pham_Di_Cac_Tinh_Gui_Call_Center.vb"
+                    DependentUpon = "Rpt_Danh_Sach_Buu_Pham_Di_Cac_Tinh_Gui_Call_Center.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\Rpt_E2_Xac_Nhan_Ban_Ke.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "Rpt_E2_Xac_Nhan_Ban_Ke1.vb"
+                />
+                <File
+                    RelPath = "Reports\Rpt_E2_Xac_Nhan_Ban_Ke1.vb"
+                    DependentUpon = "Rpt_E2_Xac_Nhan_Ban_Ke.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\Rpt_HaiQuanBuuDien.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "Rpt_HaiQuanBuuDien.vb"
+                />
+                <File
+                    RelPath = "Reports\Rpt_HaiQuanBuuDien.vb"
+                    DependentUpon = "Rpt_HaiQuanBuuDien.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\RptBan_Ke_A1_3cot.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptBan_Ke_A1_3cot1.vb"
+                />
+                <File
+                    RelPath = "Reports\RptBan_Ke_A1_3cot1.vb"
+                    DependentUpon = "RptBan_Ke_A1_3cot.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\rptBan_ke_A1_Quoc_Te_Den.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptBan_ke_A1_Quoc_Te_Den.vb"
+                />
+                <File
+                    RelPath = "Reports\rptBan_ke_A1_Quoc_Te_Den.vb"
+                    DependentUpon = "rptBan_ke_A1_Quoc_Te_Den.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\rptBan_ke_A1_Quoc_Te_Den.resx"
+                    DependentUpon = "rptBan_ke_A1_Quoc_Te_Den.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Reports\rptBan_ke_A1_Quoc_Te_Di.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptBan_ke_A1_Quoc_Te_Di1.vb"
+                />
+                <File
+                    RelPath = "Reports\rptBan_ke_A1_Quoc_Te_Di1.vb"
+                    DependentUpon = "rptBan_ke_A1_Quoc_Te_Di.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\RptBang_Ke_Theo_Doi_Thue_Le_Phi_Hai_Quan.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptBang_Ke_Theo_Doi_Thue_Le_Phi_Hai_Quan.vb"
+                />
+                <File
+                    RelPath = "Reports\RptBang_Ke_Theo_Doi_Thue_Le_Phi_Hai_Quan.vb"
+                    DependentUpon = "RptBang_Ke_Theo_Doi_Thue_Le_Phi_Hai_Quan.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\RptBang_Ke_Thue_Hai_Quan.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptBang_Ke_Thue_Hai_Quan.vb"
+                />
+                <File
+                    RelPath = "Reports\RptBang_Ke_Thue_Hai_Quan.vb"
+                    DependentUpon = "RptBang_Ke_Thue_Hai_Quan.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\RptBang_Ke_Thue_Hai_Quan_Chuyen_Hoan.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptBang_Ke_Thue_Hai_Quan_Chuyen_Hoan.vb"
+                />
+                <File
+                    RelPath = "Reports\RptBang_Ke_Thue_Hai_Quan_Chuyen_Hoan.vb"
+                    DependentUpon = "RptBang_Ke_Thue_Hai_Quan_Chuyen_Hoan.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\rptBanKeKeToanEmsChieuDenTheoChuyenBayNgayKT.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptBanKeKeToanEmsChieuDenTheoChuyenBayNgayKT.vb"
+                />
+                <File
+                    RelPath = "Reports\rptBanKeKeToanEmsChieuDenTheoChuyenBayNgayKT.vb"
+                    DependentUpon = "rptBanKeKeToanEmsChieuDenTheoChuyenBayNgayKT.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\rptBanKeKeToanEmsChieuDenTheoNuocNgayKT.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptBanKeKeToanEmsChieuDenTheoNuocNgayKT.vb"
+                />
+                <File
+                    RelPath = "Reports\rptBanKeKeToanEmsChieuDenTheoNuocNgayKT.vb"
+                    DependentUpon = "rptBanKeKeToanEmsChieuDenTheoNuocNgayKT.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\RptBao_Cao_Can_Doi_Di_Den.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptBao_Cao_Can_Doi_Di_Den.vb"
+                />
+                <File
+                    RelPath = "Reports\RptBao_Cao_Can_Doi_Di_Den.vb"
+                    DependentUpon = "RptBao_Cao_Can_Doi_Di_Den.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\RptBao_Cao_Can_Doi_Di_Den_Tu_Ngay_Den_Ngay.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptBao_Cao_Can_Doi_Di_Den_Tu_Ngay_Den_Ngay.vb"
+                />
+                <File
+                    RelPath = "Reports\RptBao_Cao_Can_Doi_Di_Den_Tu_Ngay_Den_Ngay.vb"
+                    DependentUpon = "RptBao_Cao_Can_Doi_Di_Den_Tu_Ngay_Den_Ngay.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\RptBao_Cao_Den_Theo_Chuyen_Thu.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptBao_Cao_Den_Theo_Chuyen_Thu.vb"
+                />
+                <File
+                    RelPath = "Reports\RptBao_Cao_Den_Theo_Chuyen_Thu.vb"
+                    DependentUpon = "RptBao_Cao_Den_Theo_Chuyen_Thu.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\RptBao_Cao_Den_Theo_Duong_Thu.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptBao_Cao_Den_Theo_Duong_Thu.vb"
+                />
+                <File
+                    RelPath = "Reports\RptBao_Cao_Den_Theo_Duong_Thu.vb"
+                    DependentUpon = "RptBao_Cao_Den_Theo_Duong_Thu.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\RptBao_Cao_Den_Theo_Nuoc.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptBao_Cao_Den_Theo_Nuoc.vb"
+                />
+                <File
+                    RelPath = "Reports\RptBao_Cao_Den_Theo_Nuoc.vb"
+                    DependentUpon = "RptBao_Cao_Den_Theo_Nuoc.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\RptBao_Cao_Den_Theo_Tui_So.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptBao_Cao_Den_Theo_Tui_So.vb"
+                />
+                <File
+                    RelPath = "Reports\RptBao_Cao_Den_Theo_Tui_So.vb"
+                    DependentUpon = "RptBao_Cao_Den_Theo_Tui_So.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\RptBao_Cao_Di_Den_Noi_Dia_Theo_Duong_Thu.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptBao_Cao_Di_Den_Noi_Dia_Theo_Duong_Thu.vb"
+                />
+                <File
+                    RelPath = "Reports\RptBao_Cao_Di_Den_Noi_Dia_Theo_Duong_Thu.vb"
+                    DependentUpon = "RptBao_Cao_Di_Den_Noi_Dia_Theo_Duong_Thu.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\RptBao_Cao_Di_Theo_Chuyen_Thu.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptBao_Cao_Di_Theo_Chuyen_Thu.vb"
+                />
+                <File
+                    RelPath = "Reports\RptBao_Cao_Di_Theo_Chuyen_Thu.vb"
+                    DependentUpon = "RptBao_Cao_Di_Theo_Chuyen_Thu.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\RptBao_Cao_Di_Theo_Duong_Thu.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptBao_Cao_Di_Theo_Duong_Thu.vb"
+                />
+                <File
+                    RelPath = "Reports\RptBao_Cao_Di_Theo_Duong_Thu.vb"
+                    DependentUpon = "RptBao_Cao_Di_Theo_Duong_Thu.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\RptBao_Cao_Di_Theo_Tui_So.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptBao_Cao_Di_Theo_Tui_So.vb"
+                />
+                <File
+                    RelPath = "Reports\RptBao_Cao_Di_Theo_Tui_So.vb"
+                    DependentUpon = "RptBao_Cao_Di_Theo_Tui_So.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\RptBao_Cao_E1_Chenh_Lech_KL.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptBao_Cao_E1_Chenh_Lech_KL.vb"
+                />
+                <File
+                    RelPath = "Reports\RptBao_Cao_E1_Chenh_Lech_KL.vb"
+                    DependentUpon = "RptBao_Cao_E1_Chenh_Lech_KL.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\RptBao_Cao_E1_Den_Chua_Di.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptBao_Cao_E1_Den_Chua_Di.vb"
+                />
+                <File
+                    RelPath = "Reports\RptBao_Cao_E1_Den_Chua_Di.vb"
+                    DependentUpon = "RptBao_Cao_E1_Den_Chua_Di.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\RptBao_Cao_E1_Den_Nhieu_Lan.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptBao_Cao_E1_Den_Nhieu_Lan.vb"
+                />
+                <File
+                    RelPath = "Reports\RptBao_Cao_E1_Den_Nhieu_Lan.vb"
+                    DependentUpon = "RptBao_Cao_E1_Den_Nhieu_Lan.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\RptBao_Cao_E1_Di_Chua_Den.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptBao_Cao_E1_Di_Chua_Den.vb"
+                />
+                <File
+                    RelPath = "Reports\RptBao_Cao_E1_Di_Chua_Den.vb"
+                    DependentUpon = "RptBao_Cao_E1_Di_Chua_Den.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\rptBao_Cao_San_Luong_Quoc_Te.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptBao_Cao_San_Luong_Quoc_Te.vb"
+                />
+                <File
+                    RelPath = "Reports\rptBao_Cao_San_Luong_Quoc_Te.vb"
+                    DependentUpon = "rptBao_Cao_San_Luong_Quoc_Te.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\RptBao_Phat_Chi_Tiet_Phat.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptBao_Phat_Chi_Tiet_Phat.vb"
+                />
+                <File
+                    RelPath = "Reports\RptBao_Phat_Chi_Tiet_Phat.vb"
+                    DependentUpon = "RptBao_Phat_Chi_Tiet_Phat.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\RptBaoCaoChiTietSoLieuChuyenThuEMSChieuDen.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptBaoCaoChiTietSoLieuChuyenThuEMSChieuDen.vb"
+                />
+                <File
+                    RelPath = "Reports\RptBaoCaoChiTietSoLieuChuyenThuEMSChieuDen.vb"
+                    DependentUpon = "RptBaoCaoChiTietSoLieuChuyenThuEMSChieuDen.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\RptBC37den.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptBC37den.vb"
+                />
+                <File
+                    RelPath = "Reports\RptBC37den.vb"
+                    DependentUpon = "RptBC37den.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\RptBC37report.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptBC37report.vb"
+                />
+                <File
+                    RelPath = "Reports\RptBC37report.vb"
+                    DependentUpon = "RptBC37report.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\RptBC37report.resx"
+                    DependentUpon = "RptBC37report.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Reports\RptCN35innhan.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptCN35innhan.vb"
+                />
+                <File
+                    RelPath = "Reports\RptCN35innhan.vb"
+                    DependentUpon = "RptCN35innhan.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\rptCN37.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptCN37.vb"
+                />
+                <File
+                    RelPath = "Reports\rptCN37.vb"
+                    DependentUpon = "rptCN37.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\rptCN38.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptCN38.vb"
+                />
+                <File
+                    RelPath = "Reports\rptCN38.vb"
+                    DependentUpon = "rptCN38.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\rptCOD_Den_Thong_Ke_Phat.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptCOD_Den_Thong_Ke_Phat.vb"
+                />
+                <File
+                    RelPath = "Reports\rptCOD_Den_Thong_Ke_Phat.vb"
+                    DependentUpon = "rptCOD_Den_Thong_Ke_Phat.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\RptCOD_Di_Bao_Cao.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptCOD_Di_Bao_Cao.vb"
+                />
+                <File
+                    RelPath = "Reports\RptCOD_Di_Bao_Cao.vb"
+                    DependentUpon = "RptCOD_Di_Bao_Cao.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\rptCOD_Di_Thong_Ke_Nhan_Buu_Gui.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptCOD_Di_Thong_Ke_Nhan_Buu_Gui.vb"
+                />
+                <File
+                    RelPath = "Reports\rptCOD_Di_Thong_Ke_Nhan_Buu_Gui.vb"
+                    DependentUpon = "rptCOD_Di_Thong_Ke_Nhan_Buu_Gui.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\rptE1.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptE1.vb"
+                />
+                <File
+                    RelPath = "Reports\rptE1.vb"
+                    DependentUpon = "rptE1.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\rptE1_KH.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptE1_KH.vb"
+                />
+                <File
+                    RelPath = "Reports\rptE1_KH.vb"
+                    DependentUpon = "rptE1_KH.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\rptE1_KH_A5_Short.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptE1_KH_A5_Short.vb"
+                />
+                <File
+                    RelPath = "Reports\rptE1_KH_A5_Short.vb"
+                    DependentUpon = "rptE1_KH_A5_Short.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\rptE2.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptE2.vb"
+                />
+                <File
+                    RelPath = "Reports\rptE2.vb"
+                    DependentUpon = "rptE2.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\RptE2_Den_Ban_Ke.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptE2_Den_Ban_Ke1.vb"
+                />
+                <File
+                    RelPath = "Reports\RptE2_Den_Ban_Ke1.vb"
+                    DependentUpon = "RptE2_Den_Ban_Ke.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\RptE2_Den_Ban_Ke_KT.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptE2_Den_Ban_Ke_KT.vb"
+                />
+                <File
+                    RelPath = "Reports\RptE2_Den_Ban_Ke_KT.vb"
+                    DependentUpon = "RptE2_Den_Ban_Ke_KT.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\RptE2_Den_Ban_Ke_KT.resx"
+                    DependentUpon = "RptE2_Den_Ban_Ke_KT.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Reports\RptE2_Di_Ban_Ke.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptE2_Di_Ban_Ke.vb"
+                />
+                <File
+                    RelPath = "Reports\RptE2_Di_Ban_Ke.vb"
+                    DependentUpon = "RptE2_Di_Ban_Ke.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\RptE2_Di_Manifest.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptE2_Di_Manifest.vb"
+                />
+                <File
+                    RelPath = "Reports\RptE2_Di_Manifest.vb"
+                    DependentUpon = "RptE2_Di_Manifest.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\RptE2_Di_Manifest.resx"
+                    DependentUpon = "RptE2_Di_Manifest.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Reports\RptE2_Di_Manifest_3cot.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptE2_Di_Manifest_3cot.vb"
+                />
+                <File
+                    RelPath = "Reports\RptE2_Di_Manifest_3cot.vb"
+                    DependentUpon = "RptE2_Di_Manifest_3cot.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\RptE2_Di_Receptacle.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptE2_Di_Receptacle1.vb"
+                />
+                <File
+                    RelPath = "Reports\RptE2_Di_Receptacle1.vb"
+                    DependentUpon = "RptE2_Di_Receptacle.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\RptE2_Di_Receptacle_tmp.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptE2_Di_Receptacle_tmp.vb"
+                />
+                <File
+                    RelPath = "Reports\RptE2_Di_Receptacle_tmp.vb"
+                    DependentUpon = "RptE2_Di_Receptacle_tmp.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\RptE4innhan.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptE4innhan.vb"
+                />
+                <File
+                    RelPath = "Reports\RptE4innhan.vb"
+                    DependentUpon = "RptE4innhan.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\RptE4innhan.resx"
+                    DependentUpon = "RptE4innhan.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Reports\RptGiay_Bien_Nhan_Duong_Thu_Buu_Ta_Noi_Bo.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptGiay_Bien_Nhan_Duong_Thu_Buu_Ta_Noi_Bo.vb"
+                />
+                <File
+                    RelPath = "Reports\RptGiay_Bien_Nhan_Duong_Thu_Buu_Ta_Noi_Bo.vb"
+                    DependentUpon = "RptGiay_Bien_Nhan_Duong_Thu_Buu_Ta_Noi_Bo.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\rptHoaDonBc01.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptHoaDonBc01.vb"
+                />
+                <File
+                    RelPath = "Reports\rptHoaDonBc01.vb"
+                    DependentUpon = "rptHoaDonBc01.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\RptKe_Toan_QT_Ban_Ke_CN55.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptKe_Toan_QT_Ban_Ke_CN55.vb"
+                />
+                <File
+                    RelPath = "Reports\RptKe_Toan_QT_Ban_Ke_CN55.vb"
+                    DependentUpon = "RptKe_Toan_QT_Ban_Ke_CN55.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\RptKe_Toan_QT_Ban_Ke_CN56.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptKe_Toan_QT_Ban_Ke_CN56.vb"
+                />
+                <File
+                    RelPath = "Reports\RptKe_Toan_QT_Ban_Ke_CN56.vb"
+                    DependentUpon = "RptKe_Toan_QT_Ban_Ke_CN56.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\rptKe_Toan_QT_TH.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptKe_Toan_QT_TH1.vb"
+                />
+                <File
+                    RelPath = "Reports\rptKe_Toan_QT_TH1.vb"
+                    DependentUpon = "rptKe_Toan_QT_TH.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\rptKeToanEMS_Den.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptKeToanEMS_Den1.vb"
+                />
+                <File
+                    RelPath = "Reports\rptKeToanEMS_Den1.vb"
+                    DependentUpon = "rptKeToanEMS_Den.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\rptKeToanEMS_Den_Theo_Ngay_KT.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptKeToanEMS_Den_Theo_Ngay_KT.vb"
+                />
+                <File
+                    RelPath = "Reports\rptKeToanEMS_Den_Theo_Ngay_KT.vb"
+                    DependentUpon = "rptKeToanEMS_Den_Theo_Ngay_KT.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\rptKeToanEMS_Di.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptKeToanEMS_Di1.vb"
+                />
+                <File
+                    RelPath = "Reports\rptKeToanEMS_Di1.vb"
+                    DependentUpon = "rptKeToanEMS_Di.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\rptKeToanEMS_QG.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptKeToanEMS_QG.vb"
+                />
+                <File
+                    RelPath = "Reports\rptKeToanEMS_QG.vb"
+                    DependentUpon = "rptKeToanEMS_QG.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\rptKeToanUSPS_Den.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "rptKeToanUSPS_Den.vb"
+                />
+                <File
+                    RelPath = "Reports\rptKeToanUSPS_Den.vb"
+                    DependentUpon = "rptKeToanUSPS_Den.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\RptThong_Ke_Khong_Nhap_BP.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "RptThong_Ke_Khong_Nhap_BP.vb"
+                />
+                <File
+                    RelPath = "Reports\RptThong_Ke_Khong_Nhap_BP.vb"
+                    DependentUpon = "RptThong_Ke_Khong_Nhap_BP.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\Thu.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Reports\Thu.resx"
+                    DependentUpon = "Thu.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Reports\Bao_Cao_Quan_Ly_Kho_Hai_Quan\Quan_Ly_Kho_HQ.xsd"
+                    BuildAction = "Content"
+                    Generator = "MSDataSetGenerator"
+                    LastGenOutput = "Quan_Ly_Kho_HQ.vb"
+                />
+                <File
+                    RelPath = "Reports\Bao_Cao_Quan_Ly_Kho_Hai_Quan\Quan_Ly_Kho_HQ.vb"
+                    DependentUpon = "Quan_Ly_Kho_HQ.xsd"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\Bao_Cao_Quan_Ly_Kho_Hai_Quan\Quan_Ly_Kho_HQ.xsx"
+                    DependentUpon = "Quan_Ly_Kho_HQ.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Reports\Bao_Cao_Quan_Ly_Kho_Hai_Quan\Rpt_Bao_Cao_San_Luong_Kiem_Hoa_Chua_Thong_Quan.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "Rpt_Bao_Cao_San_Luong_Kiem_Hoa_Chua_Thong_Quan.vb"
+                />
+                <File
+                    RelPath = "Reports\Bao_Cao_Quan_Ly_Kho_Hai_Quan\Rpt_Bao_Cao_San_Luong_Kiem_Hoa_Chua_Thong_Quan.vb"
+                    DependentUpon = "Rpt_Bao_Cao_San_Luong_Kiem_Hoa_Chua_Thong_Quan.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\Bao_Cao_Quan_Ly_Kho_Hai_Quan\Rpt_Bao_Cao_Ton_Kho_Hai_Quan.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "Rpt_Bao_Cao_Ton_Kho_Hai_Quan.vb"
+                />
+                <File
+                    RelPath = "Reports\Bao_Cao_Quan_Ly_Kho_Hai_Quan\Rpt_Bao_Cao_Ton_Kho_Hai_Quan.vb"
+                    DependentUpon = "Rpt_Bao_Cao_Ton_Kho_Hai_Quan.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\Bao_Cao_Quan_Ly_Kho_Hai_Quan\Rpt_Bao_Cao_Ty_Le_Kiem_Quan_Phi_Mau_Dich.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "Rpt_Bao_Cao_Ty_Le_Kiem_Quan_Phi_Mau_Dich.vb"
+                />
+                <File
+                    RelPath = "Reports\Bao_Cao_Quan_Ly_Kho_Hai_Quan\Rpt_Bao_Cao_Ty_Le_Kiem_Quan_Phi_Mau_Dich.vb"
+                    DependentUpon = "Rpt_Bao_Cao_Ty_Le_Kiem_Quan_Phi_Mau_Dich.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Reports\Bao_Cao_Quan_Ly_Kho_Hai_Quan\Rpt_Bao_Cao_Ty_Le_Thong_Quan.rpt"
+                    BuildAction = "EmbeddedResource"
+                    Generator = "CrystalDecisions.VSShell.CodeGen.ReportCodeGenerator"
+                    LastGenOutput = "Rpt_Bao_Cao_Ty_Le_Thong_Quan.vb"
+                />
+                <File
+                    RelPath = "Reports\Bao_Cao_Quan_Ly_Kho_Hai_Quan\Rpt_Bao_Cao_Ty_Le_Thong_Quan.vb"
+                    DependentUpon = "Rpt_Bao_Cao_Ty_Le_Thong_Quan.rpt"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "TimKiem\FrmDinhVi.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "TimKiem\FrmDinhVi.resx"
+                    DependentUpon = "FrmDinhVi.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "TimKiem\FrmTimKiemE1.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "TimKiem\FrmTimKiemE1.resx"
+                    DependentUpon = "FrmTimKiemE1.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "TimKiem\test.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "TimKiem\test.resx"
+                    DependentUpon = "test.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "TroGiup\FrmCapNhatChuongTrinh.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "TroGiup\FrmCapNhatChuongTrinh.resx"
+                    DependentUpon = "FrmCapNhatChuongTrinh.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "TroGiup\FrmGioiThieuChuongTrinh.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "TroGiup\FrmGioiThieuChuongTrinh.resx"
+                    DependentUpon = "FrmGioiThieuChuongTrinh.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "TroGiup\FrmHuongDanSuDung.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "TroGiup\FrmHuongDanSuDung.resx"
+                    DependentUpon = "FrmHuongDanSuDung.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "TruyenSoLieu\FrmTruyenDanhMuc.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "TruyenSoLieu\FrmTruyenDanhMuc.resx"
+                    DependentUpon = "FrmTruyenDanhMuc.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Web References\API_ESHIPPING\Reference.map"
+                    BuildAction = "None"
+                    Generator = "MSDiscoCodeGenerator"
+                    LastGenOutput = "Reference.vb"
+                />
+                <File
+                    RelPath = "Web References\API_ESHIPPING\Reference.vb"
+                    DependentUpon = "Reference.map"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Web References\API_ESHIPPING\Service.wsdl"
+                    BuildAction = "None"
+                />
+                <Folder
+                    RelPath = "Web References\API_ESHIPPING\"
+                    WebReferenceUrl = "http://118.70.170.83:86/Service.asmx?WSDL"
+                    UrlBehavior = "Static"
+                />
+                <File
+                    RelPath = "Web References\Api_QLTG\Reference.map"
+                    BuildAction = "None"
+                    Generator = "MSDiscoCodeGenerator"
+                    LastGenOutput = "Reference.vb"
+                />
+                <File
+                    RelPath = "Web References\Api_QLTG\Reference.vb"
+                    DependentUpon = "Reference.map"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Web References\Api_QLTG\Service.wsdl"
+                    BuildAction = "None"
+                />
+                <Folder
+                    RelPath = "Web References\Api_QLTG\"
+                    WebReferenceUrl = "http://192.168.75.99:1234/Service.asmx?WSDL"
+                    UrlBehavior = "Static"
+                />
+                <File
+                    RelPath = "Web References\E1_USPS\e1_map.disco"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Web References\E1_USPS\e1_map.wsdl"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Web References\E1_USPS\Reference.map"
+                    BuildAction = "None"
+                    Generator = "MSDiscoCodeGenerator"
+                    LastGenOutput = "Reference.vb"
+                />
+                <File
+                    RelPath = "Web References\E1_USPS\Reference.vb"
+                    DependentUpon = "Reference.map"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <Folder
+                    RelPath = "Web References\E1_USPS\"
+                    WebReferenceUrl = "http://ems.com.vn/portal/e1map/e1_map.asmx"
+                    UrlBehavior = "Static"
+                />
+                <File
+                    RelPath = "Web References\WebReference\Reference.map"
+                    BuildAction = "None"
+                    Generator = "MSDiscoCodeGenerator"
+                    LastGenOutput = "Reference.vb"
+                />
+                <File
+                    RelPath = "Web References\WebReference\Reference.vb"
+                    DependentUpon = "Reference.map"
+                    SubType = "code"
+                    BuildAction = "Compile"
+                    DesignTime = "True"
+                    AutoGen = "True"
+                />
+                <File
+                    RelPath = "Web References\WebReference\Webems.disco"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Web References\WebReference\Webems.wsdl"
+                    BuildAction = "None"
+                />
+                <Folder
+                    RelPath = "Web References\WebReference\"
+                    WebReferenceUrl = "http://192.168.68.6/WebService/Webems.asmx?op=Tra_Cuu_Ma_E1"
+                    UrlBehavior = "Static"
+                />
+                <Folder
+                    RelPath = "Web References\"
+                    WebReferences = "TRUE"
+                />
+            </Include>
+        </Files>
+        <StartupServices>
+            <Service ID = "{CF845C55-C321-4742-B673-E6212D061ED9}" />
+        </StartupServices>
+    </VisualBasic>
+</VisualStudioProject>
+

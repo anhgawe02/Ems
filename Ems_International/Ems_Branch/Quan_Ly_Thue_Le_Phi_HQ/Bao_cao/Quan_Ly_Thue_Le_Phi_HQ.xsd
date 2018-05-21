@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="Quan_Ly_Thue_Le_Phi_HQ" targetNamespace="http://tempuri.org/Quan_Ly_Thue_Le_Phi_HQ.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/Quan_Ly_Thue_Le_Phi_HQ.xsd"
+	xmlns:mstns="http://tempuri.org/Quan_Ly_Thue_Le_Phi_HQ.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="Quan_Ly_Thue_Le_Phi_HQ" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Ban_Ke_Tong_Hop_Thue_Le_Phi_Hai_Quan">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Ma_Tinh" type="xs:string" minOccurs="0" />
+							<xs:element name="Ten_Tinh" type="xs:string" minOccurs="0" />
+							<xs:element name="To_HQ_02" type="xs:int" minOccurs="0" />
+							<xs:element name="Le_Phi_HQ" type="xs:int" minOccurs="0" />
+							<xs:element name="Le_Phi_DV" type="xs:int" minOccurs="0" />
+							<xs:element name="Le_Phi_TV" type="xs:int" minOccurs="0" />
+							<xs:element name="Le_Phi_VH" type="xs:int" minOccurs="0" />
+							<xs:element name="Le_Phi_YT" type="xs:int" minOccurs="0" />
+							<xs:element name="Le_Phi_Khac" type="xs:int" minOccurs="0" />
+							<xs:element name="Tien_Bao_Bi" type="xs:int" minOccurs="0" />
+							<xs:element name="Tong_Tien" type="xs:int" minOccurs="0" />
+							<xs:element name="Tong_Thue" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Ban_Ke_Chi_Tiet_Buu_Pham_Thu_Tien">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Ma_Tinh" type="xs:int" minOccurs="0" />
+							<xs:element name="Ten_Tinh" type="xs:string" minOccurs="0" />
+							<xs:element name="Ngay_Dong" type="xs:date" minOccurs="0" />
+							<xs:element name="Ngay_Thu_1" type="xs:date" minOccurs="0" />
+							<xs:element name="Thu_Lan_1" type="xs:int" minOccurs="0" />
+							<xs:element name="Ngay_Thu_2" type="xs:date" minOccurs="0" />
+							<xs:element name="Thu_Lan_2" type="xs:int" minOccurs="0" />
+							<xs:element name="Ma_E1" type="xs:string" minOccurs="0" />
+							<xs:element name="So_TKHQ" type="xs:string" minOccurs="0" />
+							<xs:element name="So_Bien_Lai" type="xs:string" minOccurs="0" />
+							<xs:element name="Thue_NK" type="xs:int" minOccurs="0" />
+							<xs:element name="Thue_VAT" type="xs:int" minOccurs="0" />
+							<xs:element name="Thue_NK_VAT" type="xs:int" minOccurs="0" />
+							<xs:element name="Le_Phi_HQ" type="xs:int" minOccurs="0" />
+							<xs:element name="Le_Phi_Kiem_Dinh" type="xs:int" minOccurs="0" />
+							<xs:element name="Tong_Tien" type="xs:int" minOccurs="0" />
+							<xs:element name="Ten_Dia_Chi_Nhan" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

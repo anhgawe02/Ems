@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="Data_Doanh_Thu" targetNamespace="http://tempuri.org/Data_Doanh_Thu.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/Data_Doanh_Thu.xsd" xmlns:mstns="http://tempuri.org/Data_Doanh_Thu.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="Data_Doanh_Thu" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Doanh_Thu_HH_DL_Tu_Ngay_Den_Ngay">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Ma_Bc_Khai_Thac" type="xs:int" minOccurs="0" />
+							<xs:element name="Tu_Ngay" type="xs:int" minOccurs="0" />
+							<xs:element name="Den_Ngay" type="xs:int" minOccurs="0" />
+							<xs:element name="San_Luong_NT" type="xs:int" minOccurs="0" />
+							<xs:element name="Trong_Luong_NT" type="xs:int" minOccurs="0" />
+							<xs:element name="Doanh_Thu_NT" type="xs:int" minOccurs="0" />
+							<xs:element name="San_Luong_NT_TT" type="xs:int" minOccurs="0" />
+							<xs:element name="Trong_Luong_NT_TT" type="xs:int" minOccurs="0" />
+							<xs:element name="Doanh_Thu_NT_TT" type="xs:int" minOccurs="0" />
+							<xs:element name="San_Luong_LTLK" type="xs:int" minOccurs="0" />
+							<xs:element name="Trong_Luong_LTLK" type="xs:int" minOccurs="0" />
+							<xs:element name="Doanh_Thu_LTLK" type="xs:int" minOccurs="0" />
+							<xs:element name="San_Luong_LT" type="xs:int" minOccurs="0" />
+							<xs:element name="Trong_Luong_LT" type="xs:int" minOccurs="0" />
+							<xs:element name="Doanh_Thu_LT" type="xs:int" minOccurs="0" />
+							<xs:element name="San_Luong_TTLTLK" type="xs:int" minOccurs="0" />
+							<xs:element name="Trong_Luong_TTLTLK" type="xs:int" minOccurs="0" />
+							<xs:element name="Doanh_Thu_TTLTLK" type="xs:int" minOccurs="0" />
+							<xs:element name="San_Luong_TTLT" type="xs:int" minOccurs="0" />
+							<xs:element name="Trong_Luong_TTLT" type="xs:int" minOccurs="0" />
+							<xs:element name="Doanh_Thu_TTLT" type="xs:int" minOccurs="0" />
+							<xs:element name="San_Luong_QT" type="xs:int" minOccurs="0" />
+							<xs:element name="Trong_Luong_QT" type="xs:int" minOccurs="0" />
+							<xs:element name="Doanh_Thu_QT" type="xs:int" minOccurs="0" />
+							<xs:element name="San_Luong_CH" type="xs:int" minOccurs="0" />
+							<xs:element name="Trong_Luong_CH" type="xs:int" minOccurs="0" />
+							<xs:element name="Doanh_Thu_CH" type="xs:int" minOccurs="0" />
+							<xs:element name="San_Luong_LTLK_TN_Duoi_2Kg" type="xs:int" minOccurs="0" />
+							<xs:element name="Trong_Luong_LTLK_TN_Duoi_2Kg" type="xs:int" minOccurs="0" />
+							<xs:element name="Doanh_Thu_LTLK_TN_Duoi_2Kg" type="xs:int" minOccurs="0" />
+							<xs:element name="San_Luong_LTLK_TN_Tren_2Kg" type="xs:int" minOccurs="0" />
+							<xs:element name="Trong_Luong_LTLK_TN_Tren_2Kg" type="xs:int" minOccurs="0" />
+							<xs:element name="Doanh_Thu_LTLK_TN_Tren_2Kg" type="xs:int" minOccurs="0" />
+							<xs:element name="San_Luong_LT_TN_Duoi_2Kg" type="xs:int" minOccurs="0" />
+							<xs:element name="Trong_Luong_LT_TN_Duoi_2Kg" type="xs:int" minOccurs="0" />
+							<xs:element name="Doanh_Thu_LT_TN_Duoi_2Kg" type="xs:int" minOccurs="0" />
+							<xs:element name="San_Luong_LT_TN_Tren_2Kg" type="xs:int" minOccurs="0" />
+							<xs:element name="Trong_Luong_LT_TN_Tren_2Kg" type="xs:int" minOccurs="0" />
+							<xs:element name="Doanh_Thu_LT_TN_Tren_2Kg" type="xs:int" minOccurs="0" />
+							<xs:element name="San_Luong_TTLTLK_TN_Duoi_2Kg" type="xs:int" minOccurs="0" />
+							<xs:element name="Trong_Luong_TTLTLK_TN_Duoi_2Kg" type="xs:int" minOccurs="0" />
+							<xs:element name="Doanh_Thu_TTLTLK_TN_Duoi_2Kg" type="xs:int" minOccurs="0" />
+							<xs:element name="San_Luong_TTLTLK_TN_Tren_2Kg" type="xs:int" minOccurs="0" />
+							<xs:element name="Trong_Luong_TTLTLK_TN_Tren_2Kg" type="xs:int" minOccurs="0" />
+							<xs:element name="Doanh_Thu_TTLTLK_TN_Tren_2Kg" type="xs:int" minOccurs="0" />
+							<xs:element name="San_Luong_TTLT_TN_Duoi_2Kg" type="xs:int" minOccurs="0" />
+							<xs:element name="Trong_Luong_TTLT_TN_Duoi_2Kg" type="xs:int" minOccurs="0" />
+							<xs:element name="Doanh_Thu_TTLT_TN_Duoi_2Kg" type="xs:int" minOccurs="0" />
+							<xs:element name="San_Luong_TTLT_TN_Tren_2Kg" type="xs:int" minOccurs="0" />
+							<xs:element name="Trong_Luong_TTLT_TN_Tren_2Kg" type="xs:int" minOccurs="0" />
+							<xs:element name="Doanh_Thu_TTLT_TN_Tren_2Kg" type="xs:int" minOccurs="0" />
+							<xs:element name="San_Luong_QT_Duoi_5Kg" type="xs:int" minOccurs="0" />
+							<xs:element name="Trong_Luong_QT_Duoi_5Kg" type="xs:int" minOccurs="0" />
+							<xs:element name="Doanh_Thu_QT_Duoi_5Kg" type="xs:int" minOccurs="0" />
+							<xs:element name="San_Luong_QT_Tren_5Kg" type="xs:int" minOccurs="0" />
+							<xs:element name="Trong_Luong_QT_Tren_5Kg" type="xs:int" minOccurs="0" />
+							<xs:element name="Doanh_Thu_QT_Tren_5Kg" type="xs:int" minOccurs="0" />
+							<xs:element name="HH_PH_NT" type="xs:double"></xs:element>
+							<xs:element name="HH_PH_LT" type="xs:double" minOccurs="0" />
+							<xs:element name="HH_PH_QT" type="xs:double" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="EMS_Lien_Tinh_Lien_Ke">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Ten_Tinh" type="xs:string" minOccurs="0" />
+							<xs:element name="SL_Chieu_Di" type="xs:int" minOccurs="0" />
+							<xs:element name="TL_Chieu_Di" type="xs:int" minOccurs="0" />
+							<xs:element name="SL_TT_Chieu_Di" type="xs:int" />
+							<xs:element name="TL_TT_Chieu_Di" type="xs:int" minOccurs="0" />
+							<xs:element name="SL_Den_2kg_Chieu_Den" type="xs:int" minOccurs="0" />
+							<xs:element name="TL_Den_2Kg_Chieu_Den" type="xs:int" minOccurs="0" />
+							<xs:element name="SL_Tren_2kg_Chieu_Den" type="xs:int" minOccurs="0" />
+							<xs:element name="TL_Tren_2kg_Chieu_Den" type="xs:int" minOccurs="0" />
+							<xs:element name="SL_TT_Den_2Kg_Chieu_Den" type="xs:int" minOccurs="0" />
+							<xs:element name="TL_TT_Den_2Kg_Chieu_Den" type="xs:int" minOccurs="0" />
+							<xs:element name="SL_TT_Tren_2Kg_Chieu_Den" type="xs:int" minOccurs="0" />
+							<xs:element name="TL_TT_Tren_2Kg_Chieu_Den" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

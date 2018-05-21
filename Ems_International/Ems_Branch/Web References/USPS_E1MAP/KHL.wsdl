@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="TrackAndTrace_KHL">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CustomerCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FromDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ToDate" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TrackAndTrace_KHLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TrackAndTrace_KHLResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TrackAndTrace_item">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ItemCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TrackAndTrace_itemResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TrackAndTrace_itemResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TrackAndTrace_Batch">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BatchCodeString" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TrackAndTrace_BatchResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TrackAndTrace_BatchResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TrackAndTrace_KHL_Test">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CustomerCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Province" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FromDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ToDate" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TrackAndTrace_KHL_TestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TrackAndTrace_KHL_TestResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TrackAndTrace_item_PH">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ItemCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TrackAndTrace_item_PHResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TrackAndTrace_item_PHResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TrackTrace_Items_Arr">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Mae1_Arr" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="TrackTrace_Items_ArrResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="TrackTrace_Items_ArrResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="E1_USPS_Cap_Nhat_Them">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MaE1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MaUSPS" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Status" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="E1_USPS_Cap_Nhat_ThemResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="E1_USPS_Cap_Nhat_ThemResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DataTable" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+            <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DataSet" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:element ref="s:schema" />
+            <s:any />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="TrackAndTrace_KHLSoapIn">
+    <wsdl:part name="parameters" element="tns:TrackAndTrace_KHL" />
+  </wsdl:message>
+  <wsdl:message name="TrackAndTrace_KHLSoapOut">
+    <wsdl:part name="parameters" element="tns:TrackAndTrace_KHLResponse" />
+  </wsdl:message>
+  <wsdl:message name="TrackAndTrace_itemSoapIn">
+    <wsdl:part name="parameters" element="tns:TrackAndTrace_item" />
+  </wsdl:message>
+  <wsdl:message name="TrackAndTrace_itemSoapOut">
+    <wsdl:part name="parameters" element="tns:TrackAndTrace_itemResponse" />
+  </wsdl:message>
+  <wsdl:message name="TrackAndTrace_BatchSoapIn">
+    <wsdl:part name="parameters" element="tns:TrackAndTrace_Batch" />
+  </wsdl:message>
+  <wsdl:message name="TrackAndTrace_BatchSoapOut">
+    <wsdl:part name="parameters" element="tns:TrackAndTrace_BatchResponse" />
+  </wsdl:message>
+  <wsdl:message name="TrackAndTrace_KHL_TestSoapIn">
+    <wsdl:part name="parameters" element="tns:TrackAndTrace_KHL_Test" />
+  </wsdl:message>
+  <wsdl:message name="TrackAndTrace_KHL_TestSoapOut">
+    <wsdl:part name="parameters" element="tns:TrackAndTrace_KHL_TestResponse" />
+  </wsdl:message>
+  <wsdl:message name="TrackAndTrace_item_PHSoapIn">
+    <wsdl:part name="parameters" element="tns:TrackAndTrace_item_PH" />
+  </wsdl:message>
+  <wsdl:message name="TrackAndTrace_item_PHSoapOut">
+    <wsdl:part name="parameters" element="tns:TrackAndTrace_item_PHResponse" />
+  </wsdl:message>
+  <wsdl:message name="TrackTrace_Items_ArrSoapIn">
+    <wsdl:part name="parameters" element="tns:TrackTrace_Items_Arr" />
+  </wsdl:message>
+  <wsdl:message name="TrackTrace_Items_ArrSoapOut">
+    <wsdl:part name="parameters" element="tns:TrackTrace_Items_ArrResponse" />
+  </wsdl:message>
+  <wsdl:message name="E1_USPS_Cap_Nhat_ThemSoapIn">
+    <wsdl:part name="parameters" element="tns:E1_USPS_Cap_Nhat_Them" />
+  </wsdl:message>
+  <wsdl:message name="E1_USPS_Cap_Nhat_ThemSoapOut">
+    <wsdl:part name="parameters" element="tns:E1_USPS_Cap_Nhat_ThemResponse" />
+  </wsdl:message>
+  <wsdl:message name="TrackAndTrace_KHLHttpGetIn">
+    <wsdl:part name="CustomerCode" type="s:string" />
+    <wsdl:part name="FromDate" type="s:string" />
+    <wsdl:part name="ToDate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TrackAndTrace_KHLHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="TrackAndTrace_itemHttpGetIn">
+    <wsdl:part name="ItemCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TrackAndTrace_itemHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="TrackAndTrace_BatchHttpGetIn">
+    <wsdl:part name="BatchCodeString" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TrackAndTrace_BatchHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="TrackAndTrace_KHL_TestHttpGetIn">
+    <wsdl:part name="CustomerCode" type="s:string" />
+    <wsdl:part name="Province" type="s:string" />
+    <wsdl:part name="FromDate" type="s:string" />
+    <wsdl:part name="ToDate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TrackAndTrace_KHL_TestHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="TrackAndTrace_item_PHHttpGetIn">
+    <wsdl:part name="ItemCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TrackAndTrace_item_PHHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="TrackTrace_Items_ArrHttpGetIn">
+    <wsdl:part name="Mae1_Arr" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TrackTrace_Items_ArrHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="E1_USPS_Cap_Nhat_ThemHttpGetIn">
+    <wsdl:part name="MaE1" type="s:string" />
+    <wsdl:part name="MaUSPS" type="s:string" />
+    <wsdl:part name="Status" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="E1_USPS_Cap_Nhat_ThemHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="TrackAndTrace_KHLHttpPostIn">
+    <wsdl:part name="CustomerCode" type="s:string" />
+    <wsdl:part name="FromDate" type="s:string" />
+    <wsdl:part name="ToDate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TrackAndTrace_KHLHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="TrackAndTrace_itemHttpPostIn">
+    <wsdl:part name="ItemCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TrackAndTrace_itemHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="TrackAndTrace_BatchHttpPostIn">
+    <wsdl:part name="BatchCodeString" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TrackAndTrace_BatchHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="TrackAndTrace_KHL_TestHttpPostIn">
+    <wsdl:part name="CustomerCode" type="s:string" />
+    <wsdl:part name="Province" type="s:string" />
+    <wsdl:part name="FromDate" type="s:string" />
+    <wsdl:part name="ToDate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TrackAndTrace_KHL_TestHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="TrackAndTrace_item_PHHttpPostIn">
+    <wsdl:part name="ItemCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TrackAndTrace_item_PHHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="TrackTrace_Items_ArrHttpPostIn">
+    <wsdl:part name="Mae1_Arr" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="TrackTrace_Items_ArrHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="E1_USPS_Cap_Nhat_ThemHttpPostIn">
+    <wsdl:part name="MaE1" type="s:string" />
+    <wsdl:part name="MaUSPS" type="s:string" />
+    <wsdl:part name="Status" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="E1_USPS_Cap_Nhat_ThemHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="KHLSoap">
+    <wsdl:operation name="TrackAndTrace_KHL">
+      <wsdl:input message="tns:TrackAndTrace_KHLSoapIn" />
+      <wsdl:output message="tns:TrackAndTrace_KHLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TrackAndTrace_item">
+      <wsdl:input message="tns:TrackAndTrace_itemSoapIn" />
+      <wsdl:output message="tns:TrackAndTrace_itemSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TrackAndTrace_Batch">
+      <wsdl:input message="tns:TrackAndTrace_BatchSoapIn" />
+      <wsdl:output message="tns:TrackAndTrace_BatchSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TrackAndTrace_KHL_Test">
+      <wsdl:input message="tns:TrackAndTrace_KHL_TestSoapIn" />
+      <wsdl:output message="tns:TrackAndTrace_KHL_TestSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TrackAndTrace_item_PH">
+      <wsdl:input message="tns:TrackAndTrace_item_PHSoapIn" />
+      <wsdl:output message="tns:TrackAndTrace_item_PHSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TrackTrace_Items_Arr">
+      <wsdl:input message="tns:TrackTrace_Items_ArrSoapIn" />
+      <wsdl:output message="tns:TrackTrace_Items_ArrSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="E1_USPS_Cap_Nhat_Them">
+      <wsdl:input message="tns:E1_USPS_Cap_Nhat_ThemSoapIn" />
+      <wsdl:output message="tns:E1_USPS_Cap_Nhat_ThemSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="KHLHttpGet">
+    <wsdl:operation name="TrackAndTrace_KHL">
+      <wsdl:input message="tns:TrackAndTrace_KHLHttpGetIn" />
+      <wsdl:output message="tns:TrackAndTrace_KHLHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TrackAndTrace_item">
+      <wsdl:input message="tns:TrackAndTrace_itemHttpGetIn" />
+      <wsdl:output message="tns:TrackAndTrace_itemHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TrackAndTrace_Batch">
+      <wsdl:input message="tns:TrackAndTrace_BatchHttpGetIn" />
+      <wsdl:output message="tns:TrackAndTrace_BatchHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TrackAndTrace_KHL_Test">
+      <wsdl:input message="tns:TrackAndTrace_KHL_TestHttpGetIn" />
+      <wsdl:output message="tns:TrackAndTrace_KHL_TestHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TrackAndTrace_item_PH">
+      <wsdl:input message="tns:TrackAndTrace_item_PHHttpGetIn" />
+      <wsdl:output message="tns:TrackAndTrace_item_PHHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TrackTrace_Items_Arr">
+      <wsdl:input message="tns:TrackTrace_Items_ArrHttpGetIn" />
+      <wsdl:output message="tns:TrackTrace_Items_ArrHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="E1_USPS_Cap_Nhat_Them">
+      <wsdl:input message="tns:E1_USPS_Cap_Nhat_ThemHttpGetIn" />
+      <wsdl:output message="tns:E1_USPS_Cap_Nhat_ThemHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="KHLHttpPost">
+    <wsdl:operation name="TrackAndTrace_KHL">
+      <wsdl:input message="tns:TrackAndTrace_KHLHttpPostIn" />
+      <wsdl:output message="tns:TrackAndTrace_KHLHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TrackAndTrace_item">
+      <wsdl:input message="tns:TrackAndTrace_itemHttpPostIn" />
+      <wsdl:output message="tns:TrackAndTrace_itemHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TrackAndTrace_Batch">
+      <wsdl:input message="tns:TrackAndTrace_BatchHttpPostIn" />
+      <wsdl:output message="tns:TrackAndTrace_BatchHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TrackAndTrace_KHL_Test">
+      <wsdl:input message="tns:TrackAndTrace_KHL_TestHttpPostIn" />
+      <wsdl:output message="tns:TrackAndTrace_KHL_TestHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TrackAndTrace_item_PH">
+      <wsdl:input message="tns:TrackAndTrace_item_PHHttpPostIn" />
+      <wsdl:output message="tns:TrackAndTrace_item_PHHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="TrackTrace_Items_Arr">
+      <wsdl:input message="tns:TrackTrace_Items_ArrHttpPostIn" />
+      <wsdl:output message="tns:TrackTrace_Items_ArrHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="E1_USPS_Cap_Nhat_Them">
+      <wsdl:input message="tns:E1_USPS_Cap_Nhat_ThemHttpPostIn" />
+      <wsdl:output message="tns:E1_USPS_Cap_Nhat_ThemHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="KHLSoap" type="tns:KHLSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="TrackAndTrace_KHL">
+      <soap:operation soapAction="http://tempuri.org/TrackAndTrace_KHL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TrackAndTrace_item">
+      <soap:operation soapAction="http://tempuri.org/TrackAndTrace_item" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TrackAndTrace_Batch">
+      <soap:operation soapAction="http://tempuri.org/TrackAndTrace_Batch" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TrackAndTrace_KHL_Test">
+      <soap:operation soapAction="http://tempuri.org/TrackAndTrace_KHL_Test" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TrackAndTrace_item_PH">
+      <soap:operation soapAction="http://tempuri.org/TrackAndTrace_item_PH" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TrackTrace_Items_Arr">
+      <soap:operation soapAction="http://tempuri.org/TrackTrace_Items_Arr" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="E1_USPS_Cap_Nhat_Them">
+      <soap:operation soapAction="http://tempuri.org/E1_USPS_Cap_Nhat_Them" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="KHLSoap12" type="tns:KHLSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+    <wsdl:operation name="TrackAndTrace_KHL">
+      <soap12:operation soapAction="http://tempuri.org/TrackAndTrace_KHL" style="document" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      <wsdl:input>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TrackAndTrace_item">
+      <soap12:operation soapAction="http://tempuri.org/TrackAndTrace_item" style="document" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      <wsdl:input>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TrackAndTrace_Batch">
+      <soap12:operation soapAction="http://tempuri.org/TrackAndTrace_Batch" style="document" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      <wsdl:input>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TrackAndTrace_KHL_Test">
+      <soap12:operation soapAction="http://tempuri.org/TrackAndTrace_KHL_Test" style="document" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      <wsdl:input>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TrackAndTrace_item_PH">
+      <soap12:operation soapAction="http://tempuri.org/TrackAndTrace_item_PH" style="document" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      <wsdl:input>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TrackTrace_Items_Arr">
+      <soap12:operation soapAction="http://tempuri.org/TrackTrace_Items_Arr" style="document" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      <wsdl:input>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="E1_USPS_Cap_Nhat_Them">
+      <soap12:operation soapAction="http://tempuri.org/E1_USPS_Cap_Nhat_Them" style="document" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      <wsdl:input>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="KHLHttpGet" type="tns:KHLHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="TrackAndTrace_KHL">
+      <http:operation location="/TrackAndTrace_KHL" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TrackAndTrace_item">
+      <http:operation location="/TrackAndTrace_item" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TrackAndTrace_Batch">
+      <http:operation location="/TrackAndTrace_Batch" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TrackAndTrace_KHL_Test">
+      <http:operation location="/TrackAndTrace_KHL_Test" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TrackAndTrace_item_PH">
+      <http:operation location="/TrackAndTrace_item_PH" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TrackTrace_Items_Arr">
+      <http:operation location="/TrackTrace_Items_Arr" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="E1_USPS_Cap_Nhat_Them">
+      <http:operation location="/E1_USPS_Cap_Nhat_Them" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="KHLHttpPost" type="tns:KHLHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="TrackAndTrace_KHL">
+      <http:operation location="/TrackAndTrace_KHL" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TrackAndTrace_item">
+      <http:operation location="/TrackAndTrace_item" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TrackAndTrace_Batch">
+      <http:operation location="/TrackAndTrace_Batch" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TrackAndTrace_KHL_Test">
+      <http:operation location="/TrackAndTrace_KHL_Test" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TrackAndTrace_item_PH">
+      <http:operation location="/TrackAndTrace_item_PH" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TrackTrace_Items_Arr">
+      <http:operation location="/TrackTrace_Items_Arr" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="E1_USPS_Cap_Nhat_Them">
+      <http:operation location="/E1_USPS_Cap_Nhat_Them" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="KHL">
+    <wsdl:port name="KHLSoap" binding="tns:KHLSoap">
+      <soap:address location="http://ems.com.vn/portal/KHL/KHL.asmx" />
+    </wsdl:port>
+    <wsdl:port name="KHLSoap12" binding="tns:KHLSoap12">
+      <soap12:address location="http://ems.com.vn/portal/KHL/KHL.asmx" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+    </wsdl:port>
+    <wsdl:port name="KHLHttpGet" binding="tns:KHLHttpGet">
+      <http:address location="http://ems.com.vn/portal/KHL/KHL.asmx" />
+    </wsdl:port>
+    <wsdl:port name="KHLHttpPost" binding="tns:KHLHttpPost">
+      <http:address location="http://ems.com.vn/portal/KHL/KHL.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="COD" targetNamespace="http://tempuri.org/COD.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/COD.xsd" xmlns:mstns="http://tempuri.org/COD.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="COD" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="COD_Di_Thong_Ke_Nhan">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Ma_E1" type="xs:string" minOccurs="0" />
+							<xs:element name="Ma_COD1" type="xs:string" minOccurs="0" />
+							<xs:element name="Ma_Bc_Tra" type="xs:int" minOccurs="0" />
+							<xs:element name="Khoi_Luong" type="xs:int" minOccurs="0" />
+							<xs:element name="Thu_Ho" type="xs:int" minOccurs="0" />
+							<xs:element name="Cuoc_DV" type="xs:int" minOccurs="0" />
+							<xs:element name="Ngay_Gui" type="xs:date" minOccurs="0" />
+							<xs:element name="Ngay_Nhan" type="xs:date" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="COD_Den_Thong_Ke_Phat">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Ma_E1" type="xs:string" minOccurs="0" />
+							<xs:element name="Ma_COD1" type="xs:string" minOccurs="0" />
+							<xs:element name="Ma_Bc_Goc" type="xs:int" minOccurs="0" />
+							<xs:element name="Khoi_luong" type="xs:int" minOccurs="0" />
+							<xs:element name="Gia_Tri" type="xs:int" minOccurs="0" />
+							<xs:element name="Cuoc_Thu_Ho" type="xs:int" minOccurs="0" />
+							<xs:element name="Ngay_Nhan" type="xs:date" minOccurs="0" />
+							<xs:element name="Ngay_Gui_x0020_" type="xs:date" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="COD_Di_Bao_Cao">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Ma_Quan_Ly" type="xs:string" minOccurs="0" />
+							<xs:element name="So_Goi_Hang" type="xs:int" minOccurs="0" />
+							<xs:element name="So_Luong_Phieu" type="xs:int" minOccurs="0" />
+							<xs:element name="So_Tien_Uy_Thac" type="xs:int" minOccurs="0" />
+							<xs:element name="Cuoc_Nguoi_Gui" type="xs:int" minOccurs="0" />
+							<xs:element name="Cuoc_Nguoi_Nhan" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Danh_Sach_Nuoc">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Ma_Nuoc" type="xs:string" minOccurs="0" />
+							<xs:element name="Ten_Nuoc" type="xs:string" minOccurs="0" />
+							<xs:element name="Ma_Khu_Vuc" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

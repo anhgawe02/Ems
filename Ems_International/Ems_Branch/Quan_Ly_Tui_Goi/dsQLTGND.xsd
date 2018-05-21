@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="dsQLTGND" targetNamespace="http://tempuri.org/dsQLTGND.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/dsQLTGND.xsd" xmlns:mstns="http://tempuri.org/dsQLTGND.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="dsQLTGND" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Danh_Sach_Tui_In_Nhan_E4_Label">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="STT" type="xs:int" minOccurs="0" />
+							<xs:element name="Id_Tui_Thu" type="xs:string" minOccurs="0" />
+							<xs:element name="Ngay_Dong" type="xs:string" minOccurs="0" />
+							<xs:element name="Buu_Cuc_Gui" type="xs:string" minOccurs="0" />
+							<xs:element name="Buu_Cuc_Nhan" type="xs:string" minOccurs="0" />
+							<xs:element name="So_Chuyen_Thu" type="xs:string" minOccurs="0" />
+							<xs:element name="Tui_So" type="xs:string" minOccurs="0" />
+							<xs:element name="Tong_So_BP" type="xs:int" minOccurs="0" />
+							<xs:element name="Khoi_Luong_BP" type="xs:int" minOccurs="0" />
+							<xs:element name="Tui_F" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="BC37_Tong_Hop">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="SCT" type="xs:string" minOccurs="0" />
+							<xs:element name="Buu_Cuc_Dong" type="xs:string" minOccurs="0" />
+							<xs:element name="Buu_Cuc_Nhan" type="xs:string" minOccurs="0" />
+							<xs:element name="Tui_So" type="xs:string" minOccurs="0" />
+							<xs:element name="Dich_Vu" type="xs:string" minOccurs="0" />
+							<xs:element name="Khoi_Luong" type="xs:int" minOccurs="0" />
+							<xs:element name="Khoi_Luong_QD" type="xs:int" minOccurs="0" />
+							<xs:element name="Ghi_Chu" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ThongKe_BC37_DenDi">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Tuyen_Duong_Thu" type="xs:string" minOccurs="0" />
+							<xs:element name="Buu_Cuc_Dong" type="xs:string" minOccurs="0" />
+							<xs:element name="Buu_Cuc_Nhan" type="xs:string" minOccurs="0" />
+							<xs:element name="Ngay_Dong" type="xs:date" minOccurs="0" />
+							<xs:element name="Ma_Dot_Giao_Nhan" type="xs:int" minOccurs="0" />
+							<xs:element name="So_Hieu_Chuyen_Thu" type="xs:string" minOccurs="0" />
+							<xs:element name="So_Hieu_Tui" type="xs:string" minOccurs="0" />
+							<xs:element name="Khoi_Luong" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ThongKe_BC37_DenDi_TH">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Tuyen_Duong_Thu" type="xs:string" minOccurs="0" />
+							<xs:element name="Buu_Cuc_Dong" type="xs:string" minOccurs="0" />
+							<xs:element name="Buu_Cuc_Nhan" type="xs:string" minOccurs="0" />
+							<xs:element name="Ngay_Dong" type="xs:date" minOccurs="0" />
+							<xs:element name="Ma_Dot_Giao_Nhan" type="xs:int" />
+							<xs:element name="So_Hieu_Chuyen_Thu" type="xs:string" minOccurs="0" />
+							<xs:element name="So_Luong_Tui" type="xs:string" minOccurs="0" />
+							<xs:element name="Khoi_Luong" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

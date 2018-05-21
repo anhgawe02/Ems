@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="Quan_Ly_Kho_HQ" targetNamespace="http://tempuri.org/Quan_Ly_Kho_HQ.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/Quan_Ly_Kho_HQ.xsd" xmlns:mstns="http://tempuri.org/Quan_Ly_Kho_HQ.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="Quan_Ly_Kho_HQ" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Huong_Di_Buu_Pham_Quoc_Te_Den_Bao_Cao_Ty_Le_Thong_Quan">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Phan_Loai" type="xs:string" minOccurs="0" />
+							<xs:element name="Tong_So_Den" type="xs:int" minOccurs="0" />
+							<xs:element name="Tong_So_Roi_HQ" type="xs:int" minOccurs="0" />
+							<xs:element name="Tong_So_Qua_Giang" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Huong_Di_Buu_Pham_Quoc_Te_Den_Bao_Cao_Ty_Le_Kiem_Quan_Hang_Phi_MD">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Phan_Loai" type="xs:string" minOccurs="0" />
+							<xs:element name="Tong_So_Den" type="xs:int" minOccurs="0" />
+							<xs:element name="Tong_So_BP_Phi_MD" type="xs:int" minOccurs="0" />
+							<xs:element name="Tong_So_Kiem_Hoa" type="xs:int" minOccurs="0" />
+							<xs:element name="Tong_So_BP_Phi_MD_Soi_May" type="xs:int" minOccurs="0" />
+							<xs:element name="Tong_So_Kiem_Hoa_Soi_May" type="xs:int" minOccurs="0" />
+							<xs:element name="Tong_So_Kiem_Hoa_Roi_HQ" type="xs:int" minOccurs="0" />
+							<xs:element name="Tong_So_Soi_May_Roi_HQ" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Huong_Di_Buu_Pham_Quoc_Te_Den_Bao_Cao_Ty_Le_Mo_To_Khai_Chua_Thong_Quan">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Phan_Loai" type="xs:string" minOccurs="0" />
+							<xs:element name="Tong_So_Den" type="xs:int" minOccurs="0" />
+							<xs:element name="Tong_So_BP_Phi_MD" type="xs:int" minOccurs="0" />
+							<xs:element name="Tong_So_Kiem_Hoa" type="xs:int" minOccurs="0" />
+							<xs:element name="Tong_So_Chua_Thong_Quan" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Huong_Di_Buu_Pham_Quoc_Te_Den_Bao_Cao_Tong_Hop_Ton_Toan_Bo_Kho_HQ">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="M_Phan_Loai" type="xs:string" minOccurs="0" />
+							<xs:element name="D_Phan_Loai" type="xs:string" minOccurs="0" />
+							<xs:element name="M_Ton_Dau_Ky" type="xs:int" minOccurs="0" />
+							<xs:element name="D_Ton_Dau_Ky" type="xs:int" minOccurs="0" />
+							<xs:element name="M_Tong_So_Den" type="xs:int" minOccurs="0" />
+							<xs:element name="D_Tong_So_Den" type="xs:int" minOccurs="0" />
+							<xs:element name="M_Tong_So_Di" type="xs:int" minOccurs="0" />
+							<xs:element name="D_Tong_So_Di" type="xs:int" minOccurs="0" />
+							<xs:element name="M_Ton_Cuoi_Ky" type="xs:int" minOccurs="0" />
+							<xs:element name="D_Ton_Cuoi_Ky" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Danh_Sach_Chi_Tiet_Bao_Cao_Quan_Ly_Kho_Hai_Quan">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Ma_E1" type="xs:string" minOccurs="0" />
+							<xs:element name="Ma_Nuoc" type="xs:string" minOccurs="0" />
+							<xs:element name="Phan_Loai" type="xs:string" minOccurs="0" />
+							<xs:element name="Khoi_Luong" type="xs:int" minOccurs="0" />
+							<xs:element name="Ngay_Dong" type="xs:int" minOccurs="0" />
+							<xs:element name="Ten_Duong_Thu_XND" type="xs:string" minOccurs="0" />
+							<xs:element name="Ngay_XND" type="xs:int" minOccurs="0" />
+							<xs:element name="Gio_XND" type="xs:int" minOccurs="0" />
+							<xs:element name="Ngay_Roi_HQ" type="xs:int" minOccurs="0" />
+							<xs:element name="Gio_Roi_HQ" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

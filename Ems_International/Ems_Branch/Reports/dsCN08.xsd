@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="Dataset1" targetNamespace="http://tempuri.org/Dataset1.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/Dataset1.xsd" xmlns:mstns="http://tempuri.org/Dataset1.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="Dataset1" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Chuyen_thu_di">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Id_Duong_thu" type="xs:string" minOccurs="0" />
+							<xs:element name="Id_Chuyen_thu" type="xs:string" minOccurs="0" />
+							<xs:element name="Ma_Bc_Khai_Thac" type="xs:int" minOccurs="0" />
+							<xs:element name="Ma_Bc_Khai_Thac_Chu" type="xs:string" minOccurs="0" />
+							<xs:element name="Ma_Bc" type="xs:int" minOccurs="0" />
+							<xs:element name="Ma_Bc_Chu" type="xs:string" minOccurs="0" />
+							<xs:element name="Ngay_Dong" type="xs:date" minOccurs="0" />
+							<xs:element name="Consignment_id" type="xs:string" minOccurs="0" />
+							<xs:element name="Chuyen_bay" type="xs:string" minOccurs="0" />
+							<xs:element name="DateOfDeparture" type="xs:date" minOccurs="0" />
+							<xs:element name="AirportOfDirect" type="xs:string" minOccurs="0" />
+							<xs:element name="AirportOfLoading" type="xs:string" minOccurs="0" />
+							<xs:element name="Despatch_id" type="xs:string" minOccurs="0" />
+							<xs:element name="Ten_bc" type="xs:string" minOccurs="0" />
+							<xs:element name="Ten_bc_khai_thac" type="xs:string" minOccurs="0" />
+							<xs:element name="Gio_dong" type="xs:time" minOccurs="0" />
+							<xs:element name="ClosedTransitInfo" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="CT_E2_Di">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Id_Duong_thu" type="xs:string" minOccurs="0" />
+							<xs:element name="Id_Chuyen_thu" type="xs:string" minOccurs="0" />
+							<xs:element name="Ma_Bc_Khai_Thac" type="xs:int" minOccurs="0" />
+							<xs:element name="Ma_Bc_Khai_Thac_Chu" type="xs:string" minOccurs="0" />
+							<xs:element name="Ma_BC" type="xs:int" minOccurs="0" />
+							<xs:element name="Ma_Bc_Chu" type="xs:string" minOccurs="0" />
+							<xs:element name="So_chuyen_thu" type="xs:int" minOccurs="0" />
+							<xs:element name="Tui_So" type="xs:int" minOccurs="0" />
+							<xs:element name="soCT_TS" type="xs:string" minOccurs="0" />
+							<xs:element name="Tong_So_BP" type="xs:int" minOccurs="0" />
+							<xs:element name="Khoi_luong_BP" type="xs:double" minOccurs="0" />
+							<xs:element name="Tui_F" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
