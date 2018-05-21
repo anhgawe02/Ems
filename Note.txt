@@ -12,4 +12,5 @@ git status
 git commit -a -m"note" (-a: thay cho add *)
 git push (de luu thay doi len host github)
 
--------------cach de day du lieu thu local len github----------------------------------------------End
+-------------cach de day du lieu thu local len github-----------------------------------------End
+--aaaa
