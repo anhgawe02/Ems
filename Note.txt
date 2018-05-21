@@ -1,2 +1,7 @@
 USer github: anhgawe02/ @Zx073746130
 https://github.com/anhgawe02/Ems
+-------------------------------------------
+git status
+git add * (or ten file)
+git commit -m"note" (ghi lai thay doi)
+git push (de luu thay doi len host github)
