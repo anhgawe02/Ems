@@ -13,8 +13,12 @@ git status
 git commit -a -m"note" (-a: thay cho add *)
 git push (de luu thay doi len host github)
 
+<<<<<<< HEAD
 -------------cach de day du lieu thu local len github-----------------------------------------End
 --aaaa
 =======
 https://github.com/anhgawe02/Ems
 >>>>>>> parent of bf0abbf... thay doi file Note
+=======
+-------------cach de day du lieu thu local len github----------------------------------------------End
+>>>>>>> parent of 1670c57... thay doi note
