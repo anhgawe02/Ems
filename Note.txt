@@ -1,5 +1,7 @@
-USer github: anhgawe02/ @Zx073746130
+USer github Laptop: anhgawe02/ @Zx073746130
 https://github.com/anhgawe02/Ems
+USer github PC: haibangPC/ @Zx073746130
+
 -------------cach de day du lieu thu local len github----------------------------------------------
 -------------Cach 1-------------------
 git status
@@ -14,6 +16,12 @@ git push (de luu thay doi len host github)
 
 -------------cach de day du lieu thu local len github-----------------------------------------End
 --aaaa
+<<<<<<< HEAD
 
 
 
+=======
+=======
+https://github.com/anhgawe02/Ems
+>>>>>>> parent of bf0abbf... thay doi file Note
+>>>>>>> parent of c26f386... both madified: Note.txt
