@@ -1,7 +1,15 @@
 USer github: anhgawe02/ @Zx073746130
 https://github.com/anhgawe02/Ems
--------------------------------------------
+-------------cach de day du lieu thu local len github----------------------------------------------
+-------------Cach 1-------------------
 git status
 git add * (or ten file)
 git commit -m"note" (ghi lai thay doi)
 git push (de luu thay doi len host github)
+
+-------------Cach 2 ------------------
+git status
+git commit -a -m"note" (-a: thay cho add *)
+git push (de luu thay doi len host github)
+
+-------------cach de day du lieu thu local len github----------------------------------------------End
