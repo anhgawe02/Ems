@@ -1,6 +1,16 @@
+------cai dat github------------------------------------
+D:\DU_LIEU\Soft\Github client (may PC)
+------cach tao user github va cau hinh client-----------
+1. mo gitbash
+2. dang ky:
+	. $ git config --global user.name "haibangPC"
+	. $ git config --global user.email "haibang@ems.com.vn"
+--------------------------------------------------------
 USer github Laptop: anhgawe02/ @Zx073746130
 https://github.com/anhgawe02/Ems
+---------------------------------------------------
 USer github PC: haibangPC/ @Zx073746130
+
 
 -------------cach de day du lieu thu local len github----------------------------------------------
 -------------Cach 1-------------------
